@@ -21,6 +21,9 @@ export class LoaddataService {
     { title: '3.6 - Servicios de almacenamiento de AWS', file: 'data/tier3.6.json'},
     { title: '3.7 - Inteligencia artificial y machine learning (IA/ML) y servicios de análisis ', file: 'data/tier3.7.json'},
     { title: '3.8 - Servicios de otras categorías de servicios de AWS', file: 'data/tier3.8.json'},
+    { title: '4.1 - Comparar los modelos de precios de AWS', file: 'data/tier4.1.json'},
+    { title: '4.2 - Recursos para la administración de facturación, presupuestos y costes', file: 'data/tier4.2.json'},
+    { title: '4.3 - Recursos técnicos de AWS y las opciones de AWS Support', file: 'data/tier4.3.json'},
 
   ];
   
