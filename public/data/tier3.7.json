@@ -1,0 +1,225 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué servicio de AWS permite crear, entrenar y desplegar modelos de machine learning a escala?",
+        "choices": {
+          "0": "Amazon SageMaker",
+          "1": "Amazon Kendra",
+          "2": "AWS Glue",
+          "3": "Amazon Lex"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon SageMaker es un servicio totalmente administrado para construir, entrenar y desplegar modelos de machine learning."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amazon Kendra es un servicio de búsqueda empresarial, no de machine learning general.",
+            "2": "Incorrecto. AWS Glue es un servicio de ETL (extracción, transformación y carga) para análisis de datos.",
+            "3": "Incorrecto. Amazon Lex se usa para crear interfaces conversacionales."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS está diseñado para construir aplicaciones de búsqueda inteligente utilizando IA?",
+        "choices": {
+          "0": "Amazon SageMaker",
+          "1": "Amazon Kendra",
+          "2": "AWS Glue",
+          "3": "Amazon Rekognition"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon Kendra es un servicio diseñado para crear aplicaciones de búsqueda empresarial inteligente."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon SageMaker es un servicio para construir y entrenar modelos de machine learning.",
+            "2": "Incorrecto. AWS Glue es un servicio de ETL.",
+            "3": "Incorrecto. Amazon Rekognition es un servicio de análisis de imágenes y vídeos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite procesar y analizar datos de transmisión en tiempo real?",
+        "choices": {
+          "0": "Amazon QuickSight",
+          "1": "Amazon Athena",
+          "2": "Amazon Kinesis",
+          "3": "AWS Glue"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon Kinesis permite procesar y analizar datos en tiempo real."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon QuickSight es un servicio de visualización de datos.",
+            "1": "Incorrecto. Amazon Athena es un servicio de consulta interactiva de datos en S3.",
+            "3": "Incorrecto. AWS Glue es un servicio de ETL para preparar datos para análisis."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio proporciona consultas SQL interactivas sobre datos almacenados en Amazon S3?",
+        "choices": {
+          "0": "Amazon QuickSight",
+          "1": "Amazon Athena",
+          "2": "AWS Glue",
+          "3": "Amazon SageMaker"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon Athena permite ejecutar consultas SQL interactivas sobre datos almacenados en Amazon S3."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon QuickSight es un servicio de visualización de datos.",
+            "2": "Incorrecto. AWS Glue es un servicio de preparación de datos.",
+            "3": "Incorrecto. Amazon SageMaker es para crear y entrenar modelos de machine learning."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite a los desarrolladores crear interfaces conversacionales con IA?",
+        "choices": {
+          "0": "Amazon Rekognition",
+          "1": "Amazon Kendra",
+          "2": "Amazon Lex",
+          "3": "Amazon Comprehend"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon Lex permite a los desarrolladores construir interfaces conversacionales como chatbots."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon Rekognition analiza imágenes y vídeos.",
+            "1": "Incorrecto. Amazon Kendra se centra en búsquedas empresariales.",
+            "3": "Incorrecto. Amazon Comprehend es para análisis de texto, no interfaces conversacionales."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite realizar análisis visuales de datos y crear dashboards interactivos?",
+        "choices": {
+          "0": "Amazon QuickSight",
+          "1": "Amazon Athena",
+          "2": "AWS Glue",
+          "3": "Amazon SageMaker"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon QuickSight es un servicio para análisis visuales y creación de dashboards interactivos."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amazon Athena es para ejecutar consultas SQL sobre datos en S3.",
+            "2": "Incorrecto. AWS Glue es un servicio de ETL.",
+            "3": "Incorrecto. Amazon SageMaker se utiliza para modelos de machine learning."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio se utiliza para analizar emociones y sentimientos en texto?",
+        "choices": {
+          "0": "Amazon Lex",
+          "1": "Amazon Comprehend",
+          "2": "Amazon Kendra",
+          "3": "Amazon Rekognition"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon Comprehend analiza emociones, sentimientos y relaciones en texto."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon Lex es para interfaces conversacionales.",
+            "2": "Incorrecto. Amazon Kendra es para búsquedas inteligentes.",
+            "3": "Incorrecto. Amazon Rekognition analiza imágenes y vídeos, no texto."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio ayuda a preparar datos para análisis mediante transformación y limpieza?",
+        "choices": {
+          "0": "Amazon QuickSight",
+          "1": "AWS Glue",
+          "2": "Amazon Athena",
+          "3": "Amazon SageMaker"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Glue es un servicio de ETL (extracción, transformación y carga) para preparar datos para análisis."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon QuickSight es un servicio de visualización.",
+            "2": "Incorrecto. Amazon Athena realiza consultas SQL sobre datos.",
+            "3": "Incorrecto. Amazon SageMaker se usa para entrenar modelos de machine learning."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS se utiliza para analizar imágenes y vídeos mediante machine learning?",
+        "choices": {
+          "0": "Amazon Rekognition",
+          "1": "Amazon SageMaker",
+          "2": "Amazon Kendra",
+          "3": "Amazon Comprehend"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon Rekognition analiza imágenes y vídeos, incluyendo detección facial y reconocimiento de objetos."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amazon SageMaker se utiliza para entrenar modelos de machine learning.",
+            "2": "Incorrecto. Amazon Kendra es para búsquedas empresariales.",
+            "3": "Incorrecto. Amazon Comprehend analiza texto, no imágenes o vídeos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS permite construir aplicaciones que analizan datos de transmisión en tiempo real?",
+        "choices": {
+          "0": "Amazon Athena",
+          "1": "AWS Glue",
+          "2": "Amazon Kinesis",
+          "3": "Amazon QuickSight"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon Kinesis permite procesar y analizar datos de transmisión en tiempo real."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon Athena realiza consultas SQL sobre datos en S3.",
+            "1": "Incorrecto. AWS Glue es para preparar datos para análisis.",
+            "3": "Incorrecto. Amazon QuickSight es para visualización de datos, no análisis en tiempo real."
+          }
+        }
+      }
+    ]
+  }
+  

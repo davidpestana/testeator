@@ -1,0 +1,184 @@
+{
+    "questions": [
+      {
+        "question": "¿Cuál de los siguientes servicios proporciona AWS para proteger aplicaciones web de amenazas comunes, como ataques de inyección SQL y scripts entre sitios (XSS)?",
+        "choices": {
+          "1": "AWS CloudTrail",
+          "2": "AWS WAF (Web Application Firewall)",
+          "3": "Amazon GuardDuty",
+          "4": "AWS Shield"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS WAF permite proteger aplicaciones web de amenazas comunes, como SQLi y XSS." },
+          "incorrect": {
+            "1": "AWS CloudTrail es un servicio de auditoría de actividades, no de protección de aplicaciones.",
+            "3": "Amazon GuardDuty es un servicio de detección de amenazas, pero no se especializa en protección contra SQLi y XSS.",
+            "4": "AWS Shield protege contra ataques DDoS, no contra inyecciones SQL o XSS."
+          }
+        }
+      },
+      {
+        "question": "¿Qué componente de seguridad de AWS permite gestionar las reglas de tráfico para instancias EC2?",
+        "choices": {
+          "1": "Grupos de seguridad",
+          "2": "AWS IAM",
+          "3": "Amazon GuardDuty",
+          "4": "AWS Trusted Advisor"
+        },
+        "correctChoices": { "1": 1 },
+        "responseExplanation": {
+          "correct": { "1": "Los grupos de seguridad actúan como un firewall virtual, permitiendo controlar el tráfico de entrada y salida en las instancias EC2." },
+          "incorrect": {
+            "2": "AWS IAM se usa para gestionar permisos de usuarios y roles, no para el tráfico de red.",
+            "3": "Amazon GuardDuty es un servicio de detección de amenazas, no de gestión de tráfico.",
+            "4": "AWS Trusted Advisor da recomendaciones, pero no gestiona el tráfico."
+          }
+        }
+      },
+      {
+        "question": "¿Dónde se pueden encontrar guías y recomendaciones sobre mejores prácticas de seguridad en AWS?",
+        "choices": {
+          "1": "AWS Knowledge Center",
+          "2": "AWS Billing Console",
+          "3": "AWS Security Blog",
+          "4": "Amazon RDS Console"
+        },
+        "correctChoices": { "1": 1, "3": 1 },
+        "responseExplanation": {
+          "correct": { "1": "El AWS Knowledge Center proporciona respuestas a preguntas de seguridad y guías de mejores prácticas.", "3": "El AWS Security Blog ofrece artículos, recomendaciones y noticias sobre seguridad en AWS." },
+          "incorrect": {
+            "2": "AWS Billing Console se usa para la administración de costos, no para guías de seguridad.",
+            "4": "La consola de Amazon RDS es específica para bases de datos, no para seguridad en general."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes es un servicio de AWS que puede usarse para detectar configuraciones de seguridad incorrectas o vulnerables?",
+        "choices": {
+          "1": "Amazon S3",
+          "2": "AWS Trusted Advisor",
+          "3": "AWS Marketplace",
+          "4": "Amazon EC2"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS Trusted Advisor proporciona recomendaciones de seguridad y ayuda a identificar configuraciones incorrectas." },
+          "incorrect": {
+            "1": "Amazon S3 es un servicio de almacenamiento, no de detección de configuraciones de seguridad.",
+            "3": "AWS Marketplace ofrece productos de terceros, no recomendaciones de seguridad.",
+            "4": "Amazon EC2 es un servicio de cómputo, no para detección de configuraciones de seguridad."
+          }
+        }
+      },
+      {
+        "question": "¿Qué documento de seguridad de AWS proporciona reportes y certificaciones de cumplimiento para ayudar a las empresas a cumplir con normativas?",
+        "choices": {
+          "1": "AWS Compliance Center",
+          "2": "AWS Artifact",
+          "3": "AWS Security Blog",
+          "4": "AWS Config"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS Artifact proporciona acceso a documentos de conformidad como SOC y PCI, ayudando a las empresas a cumplir con normativas." },
+          "incorrect": {
+            "1": "AWS Compliance Center centraliza información sobre cumplimiento, pero no proporciona reportes de certificación.",
+            "3": "El AWS Security Blog ofrece artículos, no reportes de cumplimiento.",
+            "4": "AWS Config es un servicio para monitoreo de configuraciones, no de conformidad."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes servicios de AWS permite detectar y responder a actividades sospechosas en una cuenta de AWS?",
+        "choices": {
+          "1": "AWS WAF",
+          "2": "AWS IAM",
+          "3": "Amazon GuardDuty",
+          "4": "AWS Artifact"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "Amazon GuardDuty detecta y alerta sobre actividades sospechosas en una cuenta de AWS." },
+          "incorrect": {
+            "1": "AWS WAF protege aplicaciones web, pero no detecta actividad sospechosa en toda la cuenta.",
+            "2": "AWS IAM es para la administración de permisos, no para detección de amenazas.",
+            "4": "AWS Artifact proporciona documentos de conformidad, no detección de amenazas."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones describe mejor las listas de control de acceso de red (ACL) en Amazon VPC?",
+        "choices": {
+          "1": "Un firewall a nivel de instancia en Amazon EC2",
+          "2": "Un conjunto de reglas de tráfico aplicadas a una subred en Amazon VPC",
+          "3": "Un servicio de AWS para monitorear amenazas de seguridad",
+          "4": "Una política de permisos en AWS IAM"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Las ACL de red son listas de reglas que controlan el tráfico a nivel de subred en Amazon VPC." },
+          "incorrect": {
+            "1": "Los grupos de seguridad son el firewall a nivel de instancia.",
+            "3": "Amazon GuardDuty es el servicio de monitoreo de amenazas de seguridad, no las ACL.",
+            "4": "Las ACL de red no son políticas de IAM."
+          }
+        }
+      },
+      {
+        "question": "¿Qué recursos están disponibles en AWS Marketplace relacionados con la seguridad?",
+        "choices": {
+          "1": "Sistemas operativos de terceros",
+          "2": "Productos de seguridad como antivirus y firewalls avanzados",
+          "3": "Documentación de conformidad",
+          "4": "Planes de capacitación en AWS"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS Marketplace ofrece productos de seguridad de terceros, como antivirus y firewalls." },
+          "incorrect": {
+            "1": "Aunque AWS Marketplace ofrece sistemas operativos, la pregunta se enfoca en productos de seguridad.",
+            "3": "La documentación de conformidad está disponible en AWS Artifact, no en AWS Marketplace.",
+            "4": "AWS Marketplace no proporciona capacitación directamente; esto se encuentra en AWS Training."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes herramientas de AWS proporciona recomendaciones de seguridad sobre configuraciones de acceso público en Amazon S3?",
+        "choices": {
+          "1": "Amazon CloudFront",
+          "2": "AWS Config",
+          "3": "AWS Trusted Advisor",
+          "4": "AWS Artifact"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "AWS Trusted Advisor puede analizar la configuración de Amazon S3 y alertar sobre acceso público no seguro." },
+          "incorrect": {
+            "1": "Amazon CloudFront es una CDN y no analiza configuraciones de seguridad de S3.",
+            "2": "AWS Config monitorea configuraciones, pero Trusted Advisor proporciona recomendaciones específicas.",
+            "4": "AWS Artifact es para documentos de conformidad, no configuraciones de acceso."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS permite gestionar la seguridad de red de una instancia EC2 controlando el tráfico de entrada y salida?",
+        "choices": {
+          "1": "AWS Shield",
+          "2": "AWS WAF",
+          "3": "Grupos de seguridad",
+          "4": "Amazon GuardDuty"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "Los grupos de seguridad permiten controlar el tráfico de entrada y salida de las instancias EC2." },
+          "incorrect": {
+            "1": "AWS Shield se enfoca en proteger contra ataques DDoS.",
+            "2": "AWS WAF se usa para proteger aplicaciones web, no instancias EC2.",
+            "4": "Amazon GuardDuty detecta amenazas, pero no controla el tráfico de red."
+          }
+        }
+      }
+    ]
+  }
+  

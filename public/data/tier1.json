@@ -1,0 +1,201 @@
+{
+    "questions": [
+      {
+        "question": "¿Cuál es uno de los principales beneficios de la nube de AWS?",
+        "choices": {
+          "1": "Escalabilidad",
+          "2": "Actualizaciones manuales",
+          "3": "Costos fijos elevados",
+          "4": "Acceso limitado a servicios"
+        },
+        "correctChoices": { "1": 1 },
+        "responseExplanation": {
+          "correct": { "1": "AWS permite escalabilidad para satisfacer las demandas de los usuarios." },
+          "incorrect": { "2": "AWS proporciona actualizaciones automáticas.", "3": "AWS ofrece costos variables en lugar de fijos.", "4": "AWS permite acceso a múltiples servicios." }
+        }
+      },
+      {
+        "question": "¿Cuál es un ejemplo de economía de escala en AWS?",
+        "choices": {
+          "1": "Descuento en volumen",
+          "2": "Costo único por infraestructura",
+          "3": "Pago por adelantado obligatorio",
+          "4": "Descuento por región"
+        },
+        "correctChoices": { "1": 1 },
+        "responseExplanation": {
+          "correct": { "1": "AWS ofrece descuentos en volumen al aumentar el uso de recursos." },
+          "incorrect": { "2": "No hay un costo único, sino pago por uso.", "3": "AWS no obliga a pagar por adelantado.", "4": "Los descuentos no están basados en la región." }
+        }
+      },
+      {
+        "question": "¿Cuál es un beneficio de la infraestructura global de AWS?",
+        "choices": {
+          "1": "Mayor latencia",
+          "2": "Alcance global",
+          "3": "Acceso local únicamente",
+          "4": "Sin opciones de redundancia"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS ofrece alcance global con una infraestructura distribuida." },
+          "incorrect": { "1": "La infraestructura global reduce la latencia.", "3": "AWS no limita el acceso a local.", "4": "AWS ofrece opciones de redundancia." }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes es un principio de diseño de la nube de AWS?",
+        "choices": {
+          "1": "Reducir disponibilidad",
+          "2": "Optimización de costos",
+          "3": "Uso exclusivo de hardware dedicado",
+          "4": "Limitación de recursos a una región"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "La optimización de costos es un principio clave de diseño en AWS." },
+          "incorrect": { "1": "AWS promueve alta disponibilidad.", "3": "AWS ofrece tanto hardware dedicado como compartido.", "4": "AWS permite despliegue global." }
+        }
+      },
+      {
+        "question": "¿Qué pilar del marco Well-Architected se centra en la seguridad?",
+        "choices": {
+          "1": "Excelencia operativa",
+          "2": "Seguridad",
+          "3": "Eficiencia del rendimiento",
+          "4": "Sostenibilidad"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "El pilar de seguridad garantiza la protección de datos y aplicaciones." },
+          "incorrect": { "1": "Excelencia operativa se enfoca en operaciones eficientes.", "3": "Eficiencia del rendimiento optimiza el uso de recursos.", "4": "Sostenibilidad considera el impacto ambiental." }
+        }
+      },
+      {
+        "question": "¿Qué estrategia de migración incluye la replicación de bases de datos en AWS?",
+        "choices": {
+          "1": "Uso de AWS Snowball",
+          "2": "Replicación de bases de datos",
+          "3": "Migración física de servidores",
+          "4": "Implementación gradual"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "La replicación de bases de datos permite migración de datos a AWS." },
+          "incorrect": { "1": "AWS Snowball es una opción para grandes volúmenes de datos físicos.", "3": "Migración física se usa raramente.", "4": "La implementación gradual no es una estrategia de replicación." }
+        }
+      },
+      {
+        "question": "¿Cuál es un beneficio del AWS Cloud Adoption Framework (AWS CAF)?",
+        "choices": {
+          "1": "Mayor riesgo empresarial",
+          "2": "Reducción de la eficiencia operativa",
+          "3": "Reducción del riesgo empresarial",
+          "4": "Aumento de complejidad"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "AWS CAF ayuda a reducir los riesgos empresariales." },
+          "incorrect": { "1": "AWS CAF reduce, no aumenta, los riesgos.", "2": "AWS CAF mejora la eficiencia.", "4": "AWS CAF simplifica los procesos." }
+        }
+      },
+      {
+        "question": "¿Qué tipo de costo se reduce con la migración a la nube de AWS?",
+        "choices": {
+          "1": "Costos variables",
+          "2": "Costos en instalaciones",
+          "3": "Costos de energía renovable",
+          "4": "Costos de hardware no dedicado"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS permite eliminar costos en instalaciones físicas." },
+          "incorrect": { "1": "AWS no reduce los costos variables.", "3": "No se enfocan en reducir costos de energía renovable.", "4": "AWS también ofrece hardware dedicado." }
+        }
+      },
+      {
+        "question": "¿Cuál es un ejemplo de automatización en AWS?",
+        "choices": {
+          "1": "Aprovisionamiento manual de servidores",
+          "2": "AWS CloudFormation",
+          "3": "Despliegue sin control",
+          "4": "Monitoreo manual de recursos"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS CloudFormation permite la automatización de despliegues." },
+          "incorrect": { "1": "AWS elimina la necesidad de aprovisionamiento manual.", "3": "AWS fomenta el control en despliegues.", "4": "AWS permite monitoreo automatizado." }
+        }
+      },
+      {
+        "question": "¿Cuál es un servicio administrado de AWS?",
+        "choices": {
+          "1": "Amazon EC2",
+          "2": "Amazon DynamoDB",
+          "3": "Amazon VPC",
+          "4": "Amazon S3 Glacier"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Amazon DynamoDB es un servicio administrado de base de datos." },
+          "incorrect": { "1": "Amazon EC2 requiere configuración y administración manual.", "3": "Amazon VPC es una red virtual.", "4": "Amazon S3 Glacier es para almacenamiento de bajo costo." }
+        }
+      },
+      {
+        "question": "¿Qué modelo de costo utiliza AWS?",
+        "choices": {
+          "1": "Costos fijos",
+          "2": "Pago por uso",
+          "3": "Costo por instalación",
+          "4": "Contrato de 10 años obligatorio"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS permite pago por uso, adaptado al consumo real." },
+          "incorrect": { "1": "AWS no impone costos fijos.", "3": "No cobra costos de instalación.", "4": "No es necesario un contrato a largo plazo." }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes es un pilar de AWS Well-Architected Framework?",
+        "choices": {
+          "1": "Disponibilidad limitada",
+          "2": "Elasticidad",
+          "3": "Sostenibilidad",
+          "4": "Costos fijos"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "La sostenibilidad es un pilar del Well-Architected Framework." },
+          "incorrect": { "1": "AWS promueve alta disponibilidad.", "2": "Elasticidad es una característica de AWS, no un pilar.", "4": "AWS utiliza costos variables." }
+        }
+      },
+      {
+        "question": "¿Qué estrategia reduce el costo total de propiedad al migrar a AWS?",
+        "choices": {
+          "1": "Uso de múltiples regiones",
+          "2": "Mantener hardware en instalaciones",
+          "3": "Escalabilidad bajo demanda",
+          "4": "Contratar equipo exclusivo de AWS"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "AWS permite escalar recursos bajo demanda, reduciendo costos." },
+          "incorrect": { "1": "AWS permite el uso de múltiples zonas dentro de regiones.", "2": "Migrar a AWS elimina costos de hardware físico.", "4": "AWS no requiere equipos exclusivos." }
+        }
+      },
+      {
+        "question": "¿Qué define el término 'elasticidad' en AWS?",
+        "choices": {
+          "1": "Capacidad de ajustar recursos a la demanda",
+          "2": "Reducción de costos fijos",
+          "3": "Disponibilidad solo en la región local",
+          "4": "Acceso compartido a recursos físicos"
+        },
+        "correctChoices": { "1": 1 },
+        "responseExplanation": {
+          "correct": { "1": "La elasticidad en AWS permite ajustar recursos a la demanda." },
+          "incorrect": { "2": "La elasticidad no está relacionada directamente con costos fijos.", "3": "AWS permite acceso global.", "4": "AWS proporciona recursos dedicados y compartidos." }
+        }
+      }
+    ]
+  }
+  

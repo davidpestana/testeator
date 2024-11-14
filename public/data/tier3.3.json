@@ -1,0 +1,313 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué tipo de instancia EC2 es más adecuada para cargas de trabajo de alto rendimiento, como simulaciones científicas o análisis financieros?",
+        "choices": {
+          "0": "Instancias de uso general",
+          "1": "Instancias optimizadas para el almacenamiento",
+          "2": "Instancias optimizadas para el cómputo",
+          "3": "Instancias GPU optimizadas"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Las instancias optimizadas para el cómputo, como la serie C6i, son ideales para cargas de trabajo intensivas en procesamiento."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las instancias de uso general están diseñadas para un equilibrio entre cómputo y memoria.",
+            "1": "Incorrecto. Estas instancias son más adecuadas para aplicaciones que requieren alta capacidad de almacenamiento.",
+            "3": "Incorrecto. Las instancias GPU están optimizadas para tareas como renderizado de gráficos o entrenamiento de IA."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones de contenedores utiliza Kubernetes para la orquestación?",
+        "choices": {
+          "0": "Amazon ECS",
+          "1": "Amazon EKS",
+          "2": "AWS Fargate",
+          "3": "Docker Swarm en EC2"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon EKS es un servicio administrado que utiliza Kubernetes para orquestar contenedores."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon ECS usa su propio sistema de orquestación, no Kubernetes.",
+            "2": "Incorrecto. AWS Fargate es una opción sin servidor para ejecutar contenedores, pero no es un sistema de orquestación.",
+            "3": "Incorrecto. Docker Swarm es una alternativa a Kubernetes, no parte de los servicios administrados de AWS."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de computación sin servidor elimina completamente la necesidad de administrar infraestructura?",
+        "choices": {
+          "0": "AWS Lambda",
+          "1": "Amazon EC2",
+          "2": "Amazon ECS",
+          "3": "AWS Elastic Beanstalk"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Lambda ejecuta código en respuesta a eventos sin necesidad de administrar infraestructura."
+          },
+          "incorrect": {
+            "1": "Incorrecto. EC2 requiere que los usuarios administren instancias y sistemas operativos.",
+            "2": "Incorrecto. ECS requiere la gestión de clústeres o el uso de Fargate para evitar administración adicional.",
+            "3": "Incorrecto. Elastic Beanstalk simplifica la administración, pero no es completamente sin servidor."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es una ventaja clave del escalado automático en Amazon EC2?",
+        "choices": {
+          "0": "Reduce la necesidad de balanceadores de carga.",
+          "1": "Proporciona elasticidad al ajustar los recursos según la demanda.",
+          "2": "Evita la necesidad de seleccionar tipos de instancias.",
+          "3": "Elimina la necesidad de monitorear el tráfico."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. El escalado automático ajusta los recursos en función de la demanda, proporcionando elasticidad."
+          },
+          "incorrect": {
+            "0": "Incorrecto. El escalado automático suele usarse junto con balanceadores de carga.",
+            "2": "Incorrecto. Aún es necesario seleccionar tipos de instancias en EC2.",
+            "3": "Incorrecto. Aunque facilita la escalabilidad, el monitoreo sigue siendo importante."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio sin servidor es adecuado para ejecutar contenedores sin necesidad de administrar clústeres?",
+        "choices": {
+          "0": "AWS Lambda",
+          "1": "Amazon ECS",
+          "2": "AWS Fargate",
+          "3": "Amazon EKS"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. AWS Fargate permite ejecutar contenedores sin la necesidad de administrar clústeres subyacentes."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Lambda es adecuado para ejecutar funciones basadas en eventos, no contenedores.",
+            "1": "Incorrecto. ECS requiere la gestión de clústeres, a menos que se use Fargate.",
+            "3": "Incorrecto. EKS utiliza Kubernetes, lo que implica cierta gestión de clústeres."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es el propósito principal de un balanceador de carga en AWS?",
+        "choices": {
+          "0": "Reducir los costos de instancias EC2.",
+          "1": "Proteger las aplicaciones contra fallos de red.",
+          "2": "Distribuir el tráfico entre múltiples instancias para mejorar la disponibilidad.",
+          "3": "Configurar automáticamente instancias EC2."
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Un balanceador de carga distribuye el tráfico de forma uniforme entre múltiples instancias, mejorando la disponibilidad y la resiliencia."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Los balanceadores de carga no afectan directamente los costos de las instancias.",
+            "1": "Incorrecto. Aunque contribuyen a la resiliencia, no son un sistema de protección primaria contra fallos de red.",
+            "3": "Incorrecto. No configuran automáticamente instancias EC2, pero pueden integrarse con Auto Scaling."
+          }
+        }
+      },
+      {
+        "question": "¿Qué tipo de instancia EC2 sería más adecuada para almacenar grandes volúmenes de datos?",
+        "choices": {
+          "0": "Instancias optimizadas para cómputo",
+          "1": "Instancias de uso general",
+          "2": "Instancias optimizadas para almacenamiento",
+          "3": "Instancias GPU optimizadas"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Las instancias optimizadas para almacenamiento, como la serie I3, son ideales para grandes volúmenes de datos."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Estas instancias están diseñadas para cargas de trabajo intensivas en procesamiento.",
+            "1": "Incorrecto. Las instancias de uso general son más versátiles, pero no optimizadas para almacenamiento.",
+            "3": "Incorrecto. Las instancias GPU están diseñadas para tareas gráficas y de IA."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS proporciona computación escalable para ejecutar aplicaciones empresariales con un balanceador de carga configurado automáticamente?",
+        "choices": {
+          "0": "AWS Lambda",
+          "1": "Amazon Elastic Beanstalk",
+          "2": "Amazon EC2",
+          "3": "AWS Fargate"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon Elastic Beanstalk simplifica el despliegue de aplicaciones empresariales y configura automáticamente recursos como balanceadores de carga."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Lambda ejecuta código basado en eventos, no aplicaciones completas.",
+            "2": "Incorrecto. EC2 requiere configuración manual de balanceadores de carga y otros recursos.",
+            "3": "Incorrecto. AWS Fargate es para ejecutar contenedores, no aplicaciones empresariales completas."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes servicios permite el uso de GPU para tareas como el aprendizaje automático o el renderizado de gráficos?",
+        "choices": {
+          "0": "Amazon ECS",
+          "1": "Amazon EKS",
+          "2": "Amazon EC2 con instancias GPU",
+          "3": "AWS Fargate"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon EC2 con instancias GPU como P3 o G5 es ideal para cargas de trabajo intensivas en gráficos o computación."
+          },
+          "incorrect": {
+            "0": "Incorrecto. ECS no está diseñado específicamente para tareas de GPU.",
+            "1": "Incorrecto. EKS orquesta contenedores, pero no está optimizado para GPU.",
+            "3": "Incorrecto. AWS Fargate no ofrece soporte para instancias GPU."
+          }
+        }
+      },
+      {
+        "question": "¿Qué característica permite a Amazon EC2 Auto Scaling iniciar automáticamente nuevas instancias en respuesta al aumento de la demanda?",
+        "choices": {
+          "0": "Programación de instancias",
+          "1": "Reglas de escalado dinámico",
+          "2": "Balanceo de carga manual",
+          "3": "Reinicio de instancias inactivas"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las reglas de escalado dinámico ajustan automáticamente los recursos en función de las métricas, como el uso de CPU."
+          },
+          "incorrect": {
+            "0": "Incorrecto. La programación inicia instancias en horarios predefinidos, pero no reacciona a la demanda.",
+            "2": "Incorrecto. El balanceo de carga no inicia nuevas instancias, solo distribuye tráfico.",
+            "3": "Incorrecto. Reiniciar instancias no es una práctica relacionada con el escalado dinámico."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS es adecuado para el procesamiento de datos en tiempo real y la ejecución de funciones sin servidor?",
+        "choices": {
+          "0": "Amazon EC2",
+          "1": "AWS Lambda",
+          "2": "Amazon ECS",
+          "3": "Amazon Elastic Beanstalk"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Lambda es ideal para el procesamiento de eventos y datos en tiempo real sin administrar servidores."
+          },
+          "incorrect": {
+            "0": "Incorrecto. EC2 requiere configuración manual y no está optimizado para funciones basadas en eventos.",
+            "2": "Incorrecto. ECS es más adecuado para contenedores, no para funciones sin servidor.",
+            "3": "Incorrecto. Elastic Beanstalk se utiliza para aplicaciones completas, no para procesamiento basado en eventos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite a los desarrolladores ejecutar aplicaciones web y móviles sin preocuparse por administrar la infraestructura subyacente?",
+        "choices": {
+          "0": "AWS Lambda",
+          "1": "Amazon EC2",
+          "2": "Amazon Elastic Beanstalk",
+          "3": "AWS Fargate"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon Elastic Beanstalk proporciona una plataforma gestionada para ejecutar aplicaciones sin administrar infraestructura."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Lambda ejecuta funciones, no aplicaciones completas.",
+            "1": "Incorrecto. EC2 requiere administración manual de la infraestructura.",
+            "3": "Incorrecto. Fargate se centra en la ejecución de contenedores, no en aplicaciones completas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta de AWS se utiliza para definir la infraestructura como código y administrar despliegues en Amazon EC2?",
+        "choices": {
+          "0": "AWS CloudFormation",
+          "1": "Amazon Elastic Beanstalk",
+          "2": "AWS Lambda",
+          "3": "AWS Auto Scaling"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS CloudFormation permite definir y gestionar la infraestructura como código para entornos como EC2."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Elastic Beanstalk es una plataforma para aplicaciones, no una herramienta de definición de infraestructura.",
+            "2": "Incorrecto. Lambda ejecuta funciones, pero no gestiona infraestructura como código.",
+            "3": "Incorrecto. Auto Scaling ajusta recursos automáticamente, pero no define infraestructura como código."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio combina la orquestación de contenedores con un modelo de facturación basado en el tiempo de ejecución?",
+        "choices": {
+          "0": "Amazon ECS con AWS Fargate",
+          "1": "Amazon EKS",
+          "2": "Amazon EC2",
+          "3": "AWS Lambda"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon ECS con Fargate combina la orquestación de contenedores con un modelo de pago basado en el uso."
+          },
+          "incorrect": {
+            "1": "Incorrecto. EKS utiliza Kubernetes para orquestar contenedores, pero no ofrece el modelo sin servidor de Fargate.",
+            "2": "Incorrecto. EC2 no incluye facturación basada en tiempo de ejecución para contenedores.",
+            "3": "Incorrecto. Lambda ejecuta funciones, no contenedores."
+          }
+        }
+      }
+    ]
+  }
+  

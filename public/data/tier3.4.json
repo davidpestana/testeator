@@ -1,0 +1,223 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué servicio de AWS es adecuado para gestionar bases de datos relacionales como MySQL y PostgreSQL con tareas administrativas automatizadas?",
+        "choices": {
+          "0": "Amazon EC2",
+          "1": "Amazon DynamoDB",
+          "2": "Amazon RDS",
+          "3": "Amazon S3"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon RDS gestiona bases de datos relacionales y automatiza tareas como copias de seguridad y actualizaciones."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon EC2 permite alojar bases de datos, pero requiere administración manual.",
+            "1": "Incorrecto. DynamoDB es un servicio NoSQL, no relacional.",
+            "3": "Incorrecto. S3 es un servicio de almacenamiento de objetos, no un servicio de bases de datos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué base de datos de AWS está diseñada para cargas de trabajo NoSQL con baja latencia y escalabilidad automática?",
+        "choices": {
+          "0": "Amazon Aurora",
+          "1": "Amazon DynamoDB",
+          "2": "Amazon ElastiCache",
+          "3": "Amazon RDS"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. DynamoDB es un servicio NoSQL que escala automáticamente y ofrece baja latencia."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Aurora es una base de datos relacional, no NoSQL.",
+            "2": "Incorrecto. ElastiCache es una base de datos en memoria, no una solución NoSQL estándar.",
+            "3": "Incorrecto. RDS está diseñado para bases de datos relacionales."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio es ideal para reducir la carga en una base de datos principal almacenando datos en caché?",
+        "choices": {
+          "0": "Amazon DynamoDB",
+          "1": "Amazon ElastiCache",
+          "2": "Amazon Aurora",
+          "3": "Amazon S3"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon ElastiCache proporciona caché basado en memoria compatible con Redis y Memcached."
+          },
+          "incorrect": {
+            "0": "Incorrecto. DynamoDB es un servicio NoSQL, no una solución de caché.",
+            "2": "Incorrecto. Aurora es una base de datos relacional de alto rendimiento.",
+            "3": "Incorrecto. S3 es un servicio de almacenamiento de objetos, no de caché."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes herramientas de AWS permite migrar bases de datos con interrupciones mínimas?",
+        "choices": {
+          "0": "AWS CloudFormation",
+          "1": "AWS Database Migration Service (DMS)",
+          "2": "AWS Elastic Beanstalk",
+          "3": "AWS CodePipeline"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS DMS facilita la migración de bases de datos con mínima interrupción en el servicio."
+          },
+          "incorrect": {
+            "0": "Incorrecto. CloudFormation se utiliza para definir infraestructura como código.",
+            "2": "Incorrecto. Elastic Beanstalk es un servicio de despliegue de aplicaciones.",
+            "3": "Incorrecto. CodePipeline es una herramienta de integración y entrega continua."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta de AWS permite convertir esquemas de bases de datos de un motor a otro, como de Oracle a PostgreSQL?",
+        "choices": {
+          "0": "AWS Database Migration Service (DMS)",
+          "1": "AWS CloudFormation",
+          "2": "AWS Schema Conversion Tool (SCT)",
+          "3": "Amazon Aurora"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. AWS SCT convierte esquemas de bases de datos entre motores heterogéneos."
+          },
+          "incorrect": {
+            "0": "Incorrecto. DMS realiza la migración, pero no convierte esquemas.",
+            "1": "Incorrecto. CloudFormation no gestiona migraciones ni conversiones de bases de datos.",
+            "3": "Incorrecto. Aurora es una base de datos relacional, no una herramienta de conversión."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción es más adecuada para aplicaciones con requerimientos específicos de configuración y control sobre el sistema operativo de la base de datos?",
+        "choices": {
+          "0": "Bases de datos en Amazon EC2",
+          "1": "Bases de datos en Amazon RDS",
+          "2": "Amazon DynamoDB",
+          "3": "Amazon ElastiCache"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Bases de datos alojadas en Amazon EC2 permiten un control total sobre la configuración y el sistema operativo."
+          },
+          "incorrect": {
+            "1": "Incorrecto. RDS automatiza muchas tareas administrativas, limitando el control total.",
+            "2": "Incorrecto. DynamoDB es una base de datos NoSQL totalmente administrada.",
+            "3": "Incorrecto. ElastiCache está diseñado para almacenar en caché datos en memoria."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de base de datos relacional está diseñado para ofrecer un rendimiento cinco veces mayor que MySQL estándar?",
+        "choices": {
+          "0": "Amazon RDS",
+          "1": "Amazon DynamoDB",
+          "2": "Amazon Aurora",
+          "3": "Amazon ElastiCache"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon Aurora es compatible con MySQL y PostgreSQL y ofrece un rendimiento superior."
+          },
+          "incorrect": {
+            "0": "Incorrecto. RDS gestiona múltiples motores, pero no está optimizado como Aurora.",
+            "1": "Incorrecto. DynamoDB es una base de datos NoSQL.",
+            "3": "Incorrecto. ElastiCache es una solución de caché basada en memoria."
+          }
+        }
+      },
+      {
+        "question": "¿Qué tipo de base de datos elegirías para almacenar datos de sesiones de usuario y mejorar el rendimiento de una aplicación web?",
+        "choices": {
+          "0": "Amazon RDS",
+          "1": "Amazon DynamoDB",
+          "2": "Amazon ElastiCache",
+          "3": "Amazon S3"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. ElastiCache es ideal para almacenar datos en memoria como sesiones de usuario para mejorar el rendimiento."
+          },
+          "incorrect": {
+            "0": "Incorrecto. RDS es adecuado para datos relacionales, pero no para sesiones rápidas.",
+            "1": "Incorrecto. DynamoDB es útil para NoSQL, pero no ofrece el rendimiento en memoria de ElastiCache.",
+            "3": "Incorrecto. S3 es un almacenamiento de objetos, no optimizado para datos en memoria."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS es ideal para aplicaciones que requieren alta disponibilidad, múltiples zonas de disponibilidad y escalabilidad automática?",
+        "choices": {
+          "0": "Amazon RDS",
+          "1": "Amazon DynamoDB",
+          "2": "Amazon EC2",
+          "3": "AWS Lambda"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon RDS proporciona alta disponibilidad y soporta múltiples zonas de disponibilidad."
+          },
+          "incorrect": {
+            "1": "Incorrecto. DynamoDB es NoSQL y ofrece escalabilidad, pero no es relacional.",
+            "2": "Incorrecto. EC2 requiere configuración manual para alta disponibilidad.",
+            "3": "Incorrecto. Lambda es un servicio sin servidor, no una solución de bases de datos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué base de datos elegirías para manejar un esquema flexible y escalabilidad global sin gestionar infraestructura?",
+        "choices": {
+          "0": "Amazon Aurora",
+          "1": "Amazon RDS",
+          "2": "Amazon DynamoDB",
+          "3": "Amazon ElastiCache"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. DynamoDB es ideal para manejar esquemas flexibles y ofrece escalabilidad global sin necesidad de administración."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Aurora es una base de datos relacional."
+          }
+        }
+      }
+    ]
+  }
+  

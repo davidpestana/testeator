@@ -1,0 +1,181 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué es una región en AWS?",
+        "choices": {
+          "0": "Un único centro de datos ubicado en una ubicación específica.",
+          "1": "Un conjunto de zonas de disponibilidad ubicadas en una región geográfica.",
+          "2": "Un servicio dedicado para el almacenamiento en la nube.",
+          "3": "Un punto de presencia para la entrega de contenido."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Una región es un conjunto de zonas de disponibilidad en una ubicación geográfica específica."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Una región incluye múltiples centros de datos (zonas de disponibilidad).",
+            "2": "Incorrecto. Este es un concepto relacionado con servicios de almacenamiento, no con regiones.",
+            "3": "Incorrecto. Esto describe las ubicaciones periféricas, no las regiones."
+          }
+        }
+      },
+      {
+        "question": "¿Qué asegura el uso de varias zonas de disponibilidad dentro de una región?",
+        "choices": {
+          "0": "Reducción de latencia entre regiones.",
+          "1": "Resiliencia ante fallos en puntos únicos.",
+          "2": "Conexiones dedicadas a internet.",
+          "3": "Acceso a servicios de baja latencia en redes 5G."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Al distribuir recursos en múltiples zonas de disponibilidad, se evitan puntos únicos de fallo y se mejora la resiliencia."
+          },
+          "incorrect": {
+            "0": "Incorrecto. La reducción de latencia entre regiones no está relacionada con el uso de varias AZ dentro de una región.",
+            "2": "Incorrecto. Esto se refiere a conexiones como AWS Direct Connect, no a zonas de disponibilidad.",
+            "3": "Incorrecto. Esto describe zonas de AWS Wavelength."
+          }
+        }
+      },
+      {
+        "question": "¿Qué son las ubicaciones periféricas en AWS?",
+        "choices": {
+          "0": "Centros de datos ubicados en las instalaciones del cliente.",
+          "1": "Regiones especializadas en aplicaciones 5G.",
+          "2": "Puntos de presencia para entregar contenido a los usuarios finales.",
+          "3": "Centros de datos dedicados para almacenamiento masivo."
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Las ubicaciones periféricas son puntos de presencia que mejoran la entrega de contenido a usuarios finales."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las ubicaciones periféricas no están en instalaciones del cliente.",
+            "1": "Incorrecto. Esto describe zonas de AWS Wavelength.",
+            "3": "Incorrecto. Esto no corresponde a las ubicaciones periféricas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio utiliza las ubicaciones periféricas para entregar contenido con baja latencia?",
+        "choices": {
+          "0": "Amazon RDS",
+          "1": "AWS CloudFormation",
+          "2": "Amazon CloudFront",
+          "3": "AWS Direct Connect"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon CloudFront utiliza ubicaciones periféricas para entregar contenido rápidamente a los usuarios finales."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon RDS es un servicio de base de datos y no utiliza ubicaciones periféricas.",
+            "1": "Incorrecto. AWS CloudFormation es una herramienta para gestionar infraestructura como código.",
+            "3": "Incorrecto. AWS Direct Connect proporciona conexiones privadas a AWS, no entrega contenido."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es el beneficio de las zonas de AWS Wavelength?",
+        "choices": {
+          "0": "Reducir la latencia para aplicaciones que utilizan redes 5G.",
+          "1": "Proporcionar almacenamiento masivo cerca de los usuarios.",
+          "2": "Ofrecer conectividad segura entre redes locales y AWS.",
+          "3": "Garantizar alta disponibilidad en regiones específicas."
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Wavelength está diseñado para aplicaciones que requieren baja latencia en redes 5G."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Esto describe las zonas locales de AWS, no Wavelength.",
+            "2": "Incorrecto. Esto se refiere a AWS Direct Connect o VPN.",
+            "3": "Incorrecto. Esto está relacionado con regiones y AZ, no con Wavelength."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es el beneficio principal de usar múltiples regiones?",
+        "choices": {
+          "0": "Reducir costos de almacenamiento.",
+          "1": "Mejorar la continuidad del negocio y la recuperación ante desastres.",
+          "2": "Acceso más rápido a redes 5G.",
+          "3": "Aumentar la capacidad de procesamiento en una sola ubicación."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Usar múltiples regiones mejora la continuidad del negocio y proporciona opciones para la recuperación ante desastres."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Los costos no están directamente relacionados con el uso de varias regiones.",
+            "2": "Incorrecto. Esto se relaciona con AWS Wavelength, no con múltiples regiones.",
+            "3": "Incorrecto. Las regiones están diseñadas para distribuir recursos, no para centralizarlos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué afirma correctamente sobre las zonas de disponibilidad (AZ)?",
+        "choices": {
+          "0": "Todas las zonas de disponibilidad comparten la misma infraestructura física.",
+          "1": "Las zonas de disponibilidad están diseñadas para eliminar puntos únicos de fallo.",
+          "2": "Una región puede tener una sola zona de disponibilidad.",
+          "3": "Las zonas de disponibilidad son puntos de presencia para entregar contenido."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las AZ están diseñadas para garantizar que no haya puntos únicos de fallo."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Cada AZ tiene infraestructura física independiente.",
+            "2": "Incorrecto. Las regiones siempre tienen al menos dos AZ.",
+            "3": "Incorrecto. Esto describe las ubicaciones periféricas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio proporciona redundancia entre múltiples zonas de disponibilidad?",
+        "choices": {
+          "0": "Amazon CloudFront",
+          "1": "Amazon RDS Multi-AZ",
+          "2": "AWS Direct Connect",
+          "3": "Amazon S3 Glacier"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon RDS Multi-AZ replica automáticamente los datos entre zonas de disponibilidad para mayor resiliencia."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon CloudFront utiliza ubicaciones periféricas, no AZ.",
+            "2": "Incorrecto. AWS Direct Connect proporciona conectividad, no redundancia.",
+            "3": "Incorrecto. Amazon S3 Glacier está diseñado para almacenamiento de archivo, no para redundancia AZ."
+          }
+        }
+      }
+    ]
+  }
+  

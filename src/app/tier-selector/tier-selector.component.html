@@ -1,0 +1,9 @@
+<mat-form-field appearance="fill" style="width: 100%;">
+  <mat-label>Tema</mat-label>
+  <mat-select (selectionChange)="change($event)">
+    @for (tier of tiers; track tier) {
+      <mat-option [value]="tier">{{tier.title}}</mat-option>
+    }
+    <mat-option value="all">Todos</mat-option>
+  </mat-select>
+</mat-form-field>

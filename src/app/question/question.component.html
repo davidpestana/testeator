@@ -1,0 +1,38 @@
+@if (question) {
+    <h2>{{ question.question }}</h2>
+  
+    <mat-selection-list #options>
+      @for (choice of question.choices |keyvalue; track choice.key) {
+         <mat-list-option [selected]="isSelected(+choice.key)" (click)="toggleSelection(+choice.key)">
+          {{ choice.value }}
+        </mat-list-option> 
+      }
+    </mat-selection-list>
+  
+    @if(!question.response) {
+        <div class="actions">
+            <button mat-raised-button color="primary" (click)="submitAnswer()" [disabled]="selectedChoices.size == 0">Submit</button>
+            <button mat-raised-button color="accent" (click)="resetSelection()">Reset</button>
+        </div>
+    } @else {
+
+        @for (choice of question.responseExplanation.correct | keyvalue; track choice.key) {
+            <mat-card [class.success]="question.response.includes(+choice.key)">
+                <mat-card-title>{{question.choices[choice.key]}} -- <b>respuesta correcta</b></mat-card-title>
+                <mat-card-content>{{ choice.value }}</mat-card-content>
+            </mat-card>
+        }
+
+        @for (choice of question.responseExplanation.incorrect | keyvalue; track choice.key) {
+            <mat-card [class.fail]="question.response.includes(+choice.key)">
+                <mat-card-title>{{question.choices[choice.key]}}</mat-card-title>
+                <mat-card-content>{{ choice.value }}</mat-card-content>
+            </mat-card>
+       }
+
+       <div class="actions">
+            <button mat-raised-button color="accent" (click)="next()">Next</button>
+       </div>
+    }
+  }
+  

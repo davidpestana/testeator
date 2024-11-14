@@ -1,0 +1,269 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué servicio de AWS se utiliza para publicar, entregar y recibir mensajes de manera asíncrona entre aplicaciones?",
+        "choices": {
+          "0": "Amazon EventBridge",
+          "1": "Amazon SNS",
+          "2": "Amazon SQS",
+          "3": "AWS AppSync"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon SQS (Simple Queue Service) es un servicio de colas de mensajes que permite la comunicación asíncrona entre aplicaciones."
+          },
+          "incorrect": {
+            "0": "Incorrecto. EventBridge conecta aplicaciones mediante eventos.",
+            "1": "Incorrecto. SNS se utiliza para enviar notificaciones.",
+            "3": "Incorrecto. AppSync se utiliza para desarrollar aplicaciones móviles y web."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite enviar correos electrónicos transaccionales y de marketing?",
+        "choices": {
+          "0": "Amazon SES",
+          "1": "Amazon SNS",
+          "2": "AWS AppSync",
+          "3": "AWS Amplify"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon SES (Simple Email Service) es un servicio diseñado para enviar correos electrónicos a escala."
+          },
+          "incorrect": {
+            "1": "Incorrecto. SNS es para notificaciones, no correos electrónicos específicos.",
+            "2": "Incorrecto. AppSync es para desarrollar aplicaciones móviles y web.",
+            "3": "Incorrecto. Amplify es una plataforma de desarrollo frontend."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS es adecuado para crear aplicaciones empresariales que gestionan llamadas telefónicas y flujos de contacto?",
+        "choices": {
+          "0": "Amazon Connect",
+          "1": "AWS Amplify",
+          "2": "Amazon WorkSpaces",
+          "3": "AWS Support"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon Connect es un servicio de centro de contacto en la nube."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amplify es para desarrollo frontend.",
+            "2": "Incorrecto. WorkSpaces es para escritorios virtuales.",
+            "3": "Incorrecto. AWS Support ofrece asistencia técnica."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta de AWS permite a los desarrolladores escribir, ejecutar y depurar código en un entorno basado en la nube?",
+        "choices": {
+          "0": "AWS Cloud9",
+          "1": "AWS CodeCommit",
+          "2": "AWS CodeDeploy",
+          "3": "AWS X-Ray"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Cloud9 es un entorno de desarrollo integrado (IDE) basado en la nube."
+          },
+          "incorrect": {
+            "1": "Incorrecto. CodeCommit es un servicio de control de versiones.",
+            "2": "Incorrecto. CodeDeploy se utiliza para despliegues automáticos.",
+            "3": "Incorrecto. X-Ray analiza solicitudes en aplicaciones distribuidas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio se utiliza para transmitir escritorios virtuales seguros a los usuarios finales?",
+        "choices": {
+          "0": "Amazon WorkSpaces",
+          "1": "Amazon AppStream 2.0",
+          "2": "AWS Amplify",
+          "3": "Amazon SES"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon WorkSpaces ofrece escritorios virtuales seguros para usuarios finales."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AppStream 2.0 permite transmitir aplicaciones, no escritorios completos.",
+            "2": "Incorrecto. Amplify es para desarrollo frontend.",
+            "3": "Incorrecto. SES es para enviar correos electrónicos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite crear e implementar aplicaciones móviles y web completas con soporte para autenticación, almacenamiento y APIs?",
+        "choices": {
+          "0": "AWS AppSync",
+          "1": "AWS Amplify",
+          "2": "Amazon SES",
+          "3": "Amazon Connect"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Amplify es una plataforma completa para desarrollo e implementación de aplicaciones frontend."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AppSync es para APIs GraphQL, no una plataforma de desarrollo completo.",
+            "2": "Incorrecto. SES es para correos electrónicos.",
+            "3": "Incorrecto. Connect es un servicio de atención al cliente."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio se utiliza para gestionar dispositivos de IoT conectados a la nube?",
+        "choices": {
+          "0": "AWS IoT Core",
+          "1": "AWS Amplify",
+          "2": "Amazon SNS",
+          "3": "AWS Cloud9"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS IoT Core permite conectar y gestionar dispositivos IoT a la nube de AWS."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amplify es para desarrollo frontend.",
+            "2": "Incorrecto. SNS es para notificaciones.",
+            "3": "Incorrecto. Cloud9 es un entorno de desarrollo integrado."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio facilita la creación de APIs GraphQL para aplicaciones web y móviles?",
+        "choices": {
+          "0": "AWS AppSync",
+          "1": "AWS Amplify",
+          "2": "Amazon SQS",
+          "3": "AWS CodePipeline"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS AppSync facilita la creación de APIs GraphQL para aplicaciones web y móviles."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amplify es una plataforma de desarrollo completo, pero no específica para APIs GraphQL.",
+            "2": "Incorrecto. SQS es para colas de mensajes.",
+            "3": "Incorrecto. CodePipeline es para integración y entrega continuas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite analizar y depurar solicitudes en aplicaciones distribuidas?",
+        "choices": {
+          "0": "AWS Cloud9",
+          "1": "AWS X-Ray",
+          "2": "AWS CodePipeline",
+          "3": "AWS AppConfig"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS X-Ray permite analizar y depurar aplicaciones distribuidas."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Cloud9 es un entorno de desarrollo integrado.",
+            "2": "Incorrecto. CodePipeline es para integración y entrega continuas.",
+            "3": "Incorrecto. AppConfig se utiliza para configurar aplicaciones en tiempo de ejecución."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite orquestar flujos de trabajo de integración y entrega continuas?",
+        "choices": {
+          "0": "AWS CodePipeline",
+          "1": "AWS CodeCommit",
+          "2": "AWS CodeBuild",
+          "3": "AWS X-Ray"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS CodePipeline orquesta flujos de integración y entrega continuas."
+          },
+          "incorrect": {
+            "1": "Incorrecto. CodeCommit es para control de versiones.",
+            "2": "Incorrecto. CodeBuild es para compilar código.",
+            "3": "Incorrecto. X-Ray es para depuración y análisis de aplicaciones distribuidas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite transmitir aplicaciones desde la nube a los usuarios finales?",
+        "choices": {
+          "0": "Amazon AppStream 2.0",
+          "1": "Amazon WorkSpaces",
+          "2": "AWS Amplify",
+          "3": "AWS AppSync"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon AppStream 2.0 permite transmitir aplicaciones desde la nube a los usuarios finales."
+          },
+          "incorrect": {
+            "1": "Incorrecto. WorkSpaces es para escritorios virtuales.",
+            "2": "Incorrecto. Amplify es para desarrollo frontend.",
+            "3": "Incorrecto. AppSync es para APIs GraphQL."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio ayuda a las empresas emergentes con recursos y herramientas para comenzar a usar AWS?",
+        "choices": {
+          "0": "AWS Activate",
+          "1": "AWS Support",
+          "2": "Amazon Connect",
+          "3": "AWS Managed Services (AMS)"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Activate ofrece recursos y herramientas para empresas emergentes que comienzan en AWS."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS Support es para soporte técnico.",
+            "2": "Incorrecto. Connect es un servicio de atención al cliente.",
+            "3": "Incorrecto. AMS proporciona administración operativa para entornos AWS."
+          }
+        }
+      }
+    ]
+  }
+  

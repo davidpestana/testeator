@@ -1,0 +1,185 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué servicio de AWS se utiliza para administrar permisos y acceso a los recursos?",
+        "choices": {
+          "1": "AWS CloudTrail",
+          "2": "AWS IAM",
+          "3": "AWS Artifact",
+          "4": "Amazon S3"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS IAM (Identity and Access Management) se usa para administrar el acceso a los recursos de AWS." },
+          "incorrect": {
+            "1": "AWS CloudTrail es para auditoría, no para administrar permisos.",
+            "3": "AWS Artifact proporciona documentos de conformidad, no administración de permisos.",
+            "4": "Amazon S3 es un servicio de almacenamiento."
+          }
+        }
+      },
+      {
+        "question": "¿Qué es una política en IAM?",
+        "choices": {
+          "1": "Un usuario creado en IAM",
+          "2": "Un conjunto de permisos que se asigna a usuarios, grupos o roles",
+          "3": "Un rol temporal para el acceso a AWS",
+          "4": "Un registro de actividades en AWS"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Una política en IAM es un conjunto de permisos que define las acciones permitidas para usuarios, grupos o roles." },
+          "incorrect": {
+            "1": "Un usuario es una entidad, no una política.",
+            "3": "Un rol permite acceso temporal, pero no es una política.",
+            "4": "El registro de actividades es parte de AWS CloudTrail, no de IAM."
+          }
+        }
+      },
+      {
+        "question": "¿Qué tipo de entidad de IAM se recomienda usar para el acceso de aplicaciones a AWS?",
+        "choices": {
+          "1": "Usuarios de IAM",
+          "2": "Grupos de IAM",
+          "3": "Roles de IAM",
+          "4": "Políticas de IAM"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "Se recomienda usar roles de IAM para proporcionar acceso a aplicaciones, ya que permiten acceso temporal y seguro." },
+          "incorrect": {
+            "1": "Los usuarios de IAM están diseñados principalmente para personas, no para aplicaciones.",
+            "2": "Los grupos de IAM organizan usuarios, pero no son una solución recomendada para aplicaciones.",
+            "4": "Las políticas de IAM son conjuntos de permisos, no una entidad que da acceso."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es una de las mejores prácticas de seguridad para usuarios de IAM?",
+        "choices": {
+          "1": "Asignar permisos de administrador a todos los usuarios",
+          "2": "Utilizar autenticación multifactor (MFA)",
+          "3": "Compartir las credenciales de usuario entre los equipos",
+          "4": "Permitir el acceso root para tareas diarias"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Se recomienda utilizar MFA para añadir una capa adicional de seguridad en el acceso de usuarios." },
+          "incorrect": {
+            "1": "No es una práctica recomendada asignar permisos de administrador a todos los usuarios.",
+            "3": "Las credenciales de usuario nunca deben compartirse entre equipos.",
+            "4": "El acceso root debe reservarse para tareas críticas, no para el uso diario."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes afirmaciones es verdadera sobre los grupos de IAM?",
+        "choices": {
+          "1": "Los grupos de IAM pueden incluir otros grupos",
+          "2": "Los grupos de IAM permiten asignar políticas a varios usuarios a la vez",
+          "3": "Los grupos de IAM son necesarios para usar MFA",
+          "4": "Los grupos de IAM pueden otorgar acceso temporal"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Los grupos de IAM permiten asignar políticas a varios usuarios a la vez, facilitando la administración de permisos." },
+          "incorrect": {
+            "1": "Los grupos de IAM no pueden contener otros grupos.",
+            "3": "MFA se asigna a usuarios individuales, no a grupos.",
+            "4": "Los grupos no otorgan acceso temporal; eso se maneja con roles."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es el propósito principal de un rol de IAM?",
+        "choices": {
+          "1": "Crear usuarios adicionales en AWS",
+          "2": "Permitir acceso temporal y seguro a los recursos de AWS",
+          "3": "Establecer políticas permanentes de permisos",
+          "4": "Registrar todas las actividades en AWS"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Un rol de IAM permite acceso temporal y seguro a los recursos de AWS sin credenciales de usuario fijas." },
+          "incorrect": {
+            "1": "Un rol no crea usuarios.",
+            "3": "Las políticas permanentes de permisos se asignan a usuarios o grupos.",
+            "4": "El registro de actividades se hace con AWS CloudTrail, no con roles."
+          }
+        }
+      },
+      {
+        "question": "¿Qué nivel de acceso se debe otorgar a los usuarios de IAM según las mejores prácticas?",
+        "choices": {
+          "1": "Acceso completo a todos los recursos",
+          "2": "Acceso solo a los recursos necesarios para realizar sus tareas",
+          "3": "Acceso root a todos los usuarios",
+          "4": "Acceso de solo lectura a toda la cuenta"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Según las mejores prácticas, los usuarios deben tener acceso solo a los recursos necesarios para sus tareas." },
+          "incorrect": {
+            "1": "No es recomendable otorgar acceso completo a todos los recursos.",
+            "3": "El acceso root solo debe usarse en casos críticos.",
+            "4": "El acceso de solo lectura no es adecuado para usuarios que necesitan permisos de escritura o administración."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta en AWS permite revisar y ajustar los permisos para mejorar la seguridad en IAM?",
+        "choices": {
+          "1": "AWS CloudTrail",
+          "2": "IAM Access Analyzer",
+          "3": "Amazon CloudWatch",
+          "4": "AWS Artifact"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "IAM Access Analyzer permite identificar y revisar los permisos en IAM para mejorar la seguridad." },
+          "incorrect": {
+            "1": "AWS CloudTrail registra actividades, pero no revisa permisos.",
+            "3": "Amazon CloudWatch monitorea métricas, no permisos de IAM.",
+            "4": "AWS Artifact proporciona informes de conformidad, no revisa permisos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué tipo de autenticación se recomienda para mejorar la seguridad en los accesos de IAM?",
+        "choices": {
+          "1": "Autenticación con nombre de usuario y contraseña solamente",
+          "2": "Autenticación multifactor (MFA)",
+          "3": "Autenticación con solo clave de acceso",
+          "4": "Sin autenticación adicional"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "MFA se recomienda para aumentar la seguridad, ya que agrega una segunda capa de autenticación." },
+          "incorrect": {
+            "1": "El uso solo de usuario y contraseña es menos seguro que MFA.",
+            "3": "La autenticación solo con clave de acceso no es segura.",
+            "4": "No es seguro permitir accesos sin autenticación adicional."
+          }
+        }
+      },
+      {
+        "question": "¿Qué entidad de IAM debería usarse para permitir que un servicio de AWS acceda a otro en nombre del cliente?",
+        "choices": {
+          "1": "Usuario de IAM",
+          "2": "Grupo de IAM",
+          "3": "Rol de IAM",
+          "4": "Política de IAM"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "Un rol de IAM permite que un servicio de AWS acceda a otro sin requerir credenciales permanentes." },
+          "incorrect": {
+            "1": "Un usuario de IAM es para accesos de individuos.",
+            "2": "Un grupo de IAM organiza usuarios, no proporciona acceso interservicio.",
+            "4": "Las políticas definen permisos, pero no son una entidad para otorgar acceso."
+          }
+        }
+      }
+    ]
+  }
+  

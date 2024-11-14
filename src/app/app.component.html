@@ -1,0 +1,13 @@
+
+<app-tier-selector></app-tier-selector>
+{{ status$ | async }} of {{ total$ | async }}
+<mat-progress-bar mode="determinate" [value]="percent$ | async"></mat-progress-bar>
+
+
+@if(question$ | async; as question) {
+  <app-question [question]="question" (submit)="response(question,$event)" (nextQuestion)="next()"></app-question>
+} @else {
+  <div>{{(result$|async)[0]}} Aciertos</div>
+  <div>{{(result$|async)[1]}} Errores</div>
+
+}

@@ -1,0 +1,185 @@
+{
+    "questions": [
+      {
+        "question": "¿Cuál de las siguientes es una responsabilidad de AWS en el modelo de responsabilidad compartida?",
+        "choices": {
+          "1": "Configurar reglas de firewall en una VPC",
+          "2": "Proteger la infraestructura física",
+          "3": "Gestionar los accesos de usuarios",
+          "4": "Aplicar políticas de cifrado en datos en reposo"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS es responsable de la seguridad de la infraestructura física de su nube." },
+          "incorrect": {
+            "1": "Configurar las reglas de firewall en una VPC es responsabilidad del cliente.",
+            "3": "Gestionar accesos de usuarios es responsabilidad del cliente.",
+            "4": "El cliente debe aplicar políticas de cifrado en sus datos en reposo."
+          }
+        }
+      },
+      {
+        "question": "En el modelo de responsabilidad compartida, ¿quién es responsable de la configuración de los permisos de IAM?",
+        "choices": {
+          "1": "AWS",
+          "2": "El cliente",
+          "3": "Un socio de AWS",
+          "4": "Un auditor externo"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "El cliente es responsable de gestionar y configurar los permisos de IAM." },
+          "incorrect": {
+            "1": "AWS proporciona el servicio IAM, pero el cliente debe configurarlo.",
+            "3": "Los socios de AWS pueden ayudar, pero la responsabilidad final es del cliente.",
+            "4": "Los auditores pueden revisar la configuración, pero no la gestionan."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes es un ejemplo de responsabilidad del cliente en AWS?",
+        "choices": {
+          "1": "Cifrado de datos en tránsito",
+          "2": "Protección de los servidores físicos",
+          "3": "Gestión de los centros de datos",
+          "4": "Actualización de la infraestructura física"
+        },
+        "correctChoices": { "1": 1 },
+        "responseExplanation": {
+          "correct": { "1": "El cliente es responsable de aplicar el cifrado de datos en tránsito." },
+          "incorrect": {
+            "2": "La protección de servidores físicos es responsabilidad de AWS.",
+            "3": "AWS gestiona los centros de datos en su totalidad.",
+            "4": "La actualización de la infraestructura física es manejada por AWS."
+          }
+        }
+      },
+      {
+        "question": "¿Qué describe mejor el concepto de 'seguridad en la nube' en el modelo de responsabilidad compartida?",
+        "choices": {
+          "1": "La responsabilidad exclusiva de AWS para proteger los datos del cliente",
+          "2": "La responsabilidad compartida entre el cliente y AWS",
+          "3": "La responsabilidad del cliente para proteger sus aplicaciones y datos en AWS",
+          "4": "La responsabilidad de AWS para proteger las aplicaciones del cliente"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "El cliente es responsable de la seguridad en la nube, incluyendo aplicaciones y datos." },
+          "incorrect": {
+            "1": "AWS asegura la infraestructura, pero el cliente debe proteger sus datos.",
+            "2": "Aunque es compartida, el cliente tiene responsabilidad en la capa de aplicaciones.",
+            "4": "AWS no administra la seguridad de las aplicaciones del cliente."
+          }
+        }
+      },
+      {
+        "question": "¿Qué responsabilidad tiene AWS en el modelo de responsabilidad compartida?",
+        "choices": {
+          "1": "Configurar el acceso a los datos",
+          "2": "Cifrar datos en reposo del cliente",
+          "3": "Asegurar la infraestructura global",
+          "4": "Definir políticas de contraseñas para los usuarios del cliente"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "AWS es responsable de la seguridad de su infraestructura global." },
+          "incorrect": {
+            "1": "Configurar acceso a los datos es responsabilidad del cliente.",
+            "2": "El cliente gestiona el cifrado de sus datos.",
+            "4": "La definición de políticas de contraseñas es responsabilidad del cliente."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes tareas es responsabilidad del cliente en el modelo de responsabilidad compartida de AWS?",
+        "choices": {
+          "1": "Actualizar el hardware de los servidores",
+          "2": "Configurar el acceso de los usuarios",
+          "3": "Asegurar los centros de datos",
+          "4": "Mantener la infraestructura de red"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Configurar el acceso de los usuarios es una tarea del cliente en AWS." },
+          "incorrect": {
+            "1": "AWS gestiona el hardware de los servidores.",
+            "3": "AWS es responsable de la seguridad física en sus centros de datos.",
+            "4": "AWS mantiene la infraestructura de red."
+          }
+        }
+      },
+      {
+        "question": "¿Quién es responsable de gestionar la seguridad de los datos en el modelo de responsabilidad compartida de AWS?",
+        "choices": {
+          "1": "AWS",
+          "2": "El cliente",
+          "3": "Un proveedor de seguridad externo",
+          "4": "Un auditor independiente"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "El cliente es responsable de la seguridad de sus datos en AWS." },
+          "incorrect": {
+            "1": "AWS se encarga de la seguridad de la infraestructura.",
+            "3": "El cliente puede contratar proveedores, pero sigue siendo su responsabilidad.",
+            "4": "Un auditor revisa la seguridad, pero no la gestiona."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes afirmaciones es correcta sobre el modelo de responsabilidad compartida?",
+        "choices": {
+          "1": "AWS se encarga de la seguridad de las aplicaciones del cliente.",
+          "2": "El cliente es responsable de proteger sus propios datos.",
+          "3": "AWS gestiona el acceso de los usuarios del cliente.",
+          "4": "AWS controla las configuraciones de seguridad del cliente."
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "El cliente debe proteger sus datos en la nube de AWS." },
+          "incorrect": {
+            "1": "AWS no tiene control sobre las aplicaciones del cliente.",
+            "3": "El cliente gestiona el acceso de sus usuarios.",
+            "4": "Las configuraciones de seguridad son responsabilidad del cliente."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes es una responsabilidad de AWS bajo el modelo de responsabilidad compartida?",
+        "choices": {
+          "1": "Configurar los permisos de IAM",
+          "2": "Actualizar los sistemas operativos de las instancias",
+          "3": "Mantener la seguridad física de los centros de datos",
+          "4": "Cifrar datos del cliente en reposo"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "AWS se encarga de la seguridad física de sus centros de datos." },
+          "incorrect": {
+            "1": "Configurar IAM es responsabilidad del cliente.",
+            "2": "El cliente debe gestionar sus propias instancias y sistemas operativos.",
+            "4": "El cliente debe decidir cómo cifrar sus datos en reposo."
+          }
+        }
+      },
+      {
+        "question": "¿Qué describe mejor la responsabilidad de AWS bajo el modelo de responsabilidad compartida?",
+        "choices": {
+          "1": "Proteger los datos del cliente",
+          "2": "Mantener la seguridad de la infraestructura subyacente",
+          "3": "Configurar políticas de acceso",
+          "4": "Aplicar cifrado en las bases de datos del cliente"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS asegura la infraestructura subyacente, como los centros de datos." },
+          "incorrect": {
+            "1": "El cliente es responsable de la seguridad de sus propios datos.",
+            "3": "Configurar políticas de acceso es responsabilidad del cliente.",
+            "4": "El cliente debe decidir si aplica cifrado a sus datos."
+          }
+        }
+      }
+    ]
+  }
+  
