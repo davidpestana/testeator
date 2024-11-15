@@ -1,0 +1,225 @@
+{
+    "questions": [
+      {
+        "question": "¿Cuál es el principal caso de uso del almacenamiento de objetos en Amazon S3?",
+        "choices": {
+          "0": "Almacenamiento de bases de datos relacionales.",
+          "1": "Almacenamiento de grandes cantidades de datos no estructurados.",
+          "2": "Ejecución de aplicaciones web.",
+          "3": "Procesamiento en memoria de datos transitorios."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon S3 está diseñado para almacenar grandes cantidades de datos no estructurados, como imágenes, vídeos y registros de datos."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las bases de datos relacionales requieren almacenamiento en bloques como Amazon EBS.",
+            "2": "Incorrecto. Las aplicaciones web se ejecutan en servicios como EC2 o Lambda.",
+            "3": "Incorrecto. El procesamiento en memoria utiliza servicios como Amazon ElastiCache."
+          }
+        }
+      },
+      {
+        "question": "¿Qué clase de almacenamiento de Amazon S3 es la más adecuada para datos a los que se accede con poca frecuencia pero que requieren recuperación rápida?",
+        "choices": {
+          "0": "S3 Standard",
+          "1": "S3 Intelligent-Tiering",
+          "2": "S3 Standard-IA",
+          "3": "S3 Glacier"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. S3 Standard-IA (Infrequent Access) está diseñado para datos a los que se accede con poca frecuencia pero que requieren una recuperación rápida."
+          },
+          "incorrect": {
+            "0": "Incorrecto. S3 Standard está diseñado para datos de acceso frecuente.",
+            "1": "Incorrecto. Intelligent-Tiering ajusta automáticamente la clase según patrones de acceso.",
+            "3": "Incorrecto. S3 Glacier es para archivado de largo plazo con tiempos de recuperación más largos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué solución de almacenamiento en bloques es ideal para datos temporales que no necesitan persistencia?",
+        "choices": {
+          "0": "Amazon EBS",
+          "1": "Almacén de instancias EC2",
+          "2": "Amazon FSx",
+          "3": "AWS Storage Gateway"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. El almacén de instancias EC2 ofrece almacenamiento temporal que se elimina cuando se detiene o termina la instancia."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon EBS es almacenamiento en bloques persistente.",
+            "2": "Incorrecto. Amazon FSx es para sistemas de archivos distribuidos.",
+            "3": "Incorrecto. AWS Storage Gateway conecta sistemas de almacenamiento locales con AWS."
+          }
+        }
+      },
+      {
+        "question": "¿Qué solución de almacenamiento proporciona un sistema de archivos escalable y compartido para múltiples instancias EC2?",
+        "choices": {
+          "0": "Amazon EFS",
+          "1": "Amazon S3",
+          "2": "Amazon FSx para Lustre",
+          "3": "AWS Storage Gateway"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon EFS (Elastic File System) es un sistema de archivos escalable y administrado que se puede montar en varias instancias EC2."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amazon S3 es almacenamiento de objetos, no un sistema de archivos.",
+            "2": "Incorrecto. FSx para Lustre está optimizado para procesamiento intensivo de datos.",
+            "3": "Incorrecto. AWS Storage Gateway es para integración de almacenamiento híbrido."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite configurar reglas para mover objetos de Amazon S3 entre clases de almacenamiento?",
+        "choices": {
+          "0": "AWS Backup",
+          "1": "Políticas de ciclo de vida de S3",
+          "2": "Amazon FSx",
+          "3": "Amazon EBS"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las políticas de ciclo de vida de S3 permiten configurar reglas para mover automáticamente objetos entre clases de almacenamiento."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Backup es para copias de seguridad, no para políticas de ciclo de vida.",
+            "2": "Incorrecto. FSx es un sistema de archivos distribuido.",
+            "3": "Incorrecto. EBS es almacenamiento en bloques y no tiene políticas de ciclo de vida."
+          }
+        }
+      },
+      {
+        "question": "¿Qué clase de almacenamiento de S3 es ideal para archivado de datos a largo plazo con costos bajos?",
+        "choices": {
+          "0": "S3 Glacier",
+          "1": "S3 Standard",
+          "2": "S3 Standard-IA",
+          "3": "S3 Intelligent-Tiering"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. S3 Glacier está diseñado para archivado de datos a largo plazo con costos muy bajos."
+          },
+          "incorrect": {
+            "1": "Incorrecto. S3 Standard está diseñado para acceso frecuente.",
+            "2": "Incorrecto. Standard-IA es para datos de acceso poco frecuente, pero con recuperación rápida.",
+            "3": "Incorrecto. Intelligent-Tiering ajusta automáticamente la clase según el uso."
+          }
+        }
+      },
+      {
+        "question": "¿Qué solución de almacenamiento es ideal para aplicaciones de procesamiento intensivo de datos?",
+        "choices": {
+          "0": "Amazon FSx para Lustre",
+          "1": "Amazon S3",
+          "2": "AWS Storage Gateway",
+          "3": "Amazon EBS"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon FSx para Lustre está diseñado para cargas de trabajo de alto rendimiento como análisis de datos y simulaciones."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amazon S3 es para almacenamiento de objetos, no para procesamiento intensivo.",
+            "2": "Incorrecto. AWS Storage Gateway es para integración híbrida.",
+            "3": "Incorrecto. Amazon EBS es para almacenamiento en bloques persistente, pero no optimizado para análisis masivos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite realizar copias de seguridad centralizadas para varios servicios de AWS?",
+        "choices": {
+          "0": "AWS Backup",
+          "1": "Amazon S3",
+          "2": "AWS Storage Gateway",
+          "3": "Amazon FSx"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Backup ofrece una solución centralizada y automatizada para realizar copias de seguridad de servicios como EBS, RDS y DynamoDB."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amazon S3 es un servicio de almacenamiento de objetos.",
+            "2": "Incorrecto. AWS Storage Gateway conecta almacenamiento local con AWS.",
+            "3": "Incorrecto. Amazon FSx es para sistemas de archivos distribuidos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio conecta sistemas de almacenamiento locales con almacenamiento en la nube de AWS?",
+        "choices": {
+          "0": "AWS Storage Gateway",
+          "1": "Amazon S3",
+          "2": "Amazon FSx",
+          "3": "Amazon EBS"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Storage Gateway proporciona integración híbrida entre almacenamiento local y servicios en la nube de AWS."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Amazon S3 es un servicio de almacenamiento de objetos, no de integración híbrida.",
+            "2": "Incorrecto. Amazon FSx es para sistemas de archivos distribuidos.",
+            "3": "Incorrecto. Amazon EBS es para almacenamiento en bloques persistente."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite un sistema de archivos compartido para aplicaciones distribuidas en AWS?",
+        "choices": {
+          "0": "Amazon EFS",
+          "1": "Amazon FSx",
+          "2": "Amazon S3",
+          "3": "AWS Backup"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Amazon EFS permite un sistema de archivos compartido y escalable para aplicaciones distribuidas."
+          },
+          "incorrect": {
+            "1": "Incorrecto. FSx es para sistemas específicos como Lustre o Windows File Server.",
+            "2": "Incorrecto. S3 es almacenamiento de objetos, no un sistema de archivos.",
+            "3": "Incorrecto. AWS Backup es para copias de seguridad."
+          }
+        }
+      }
+    ]
+  }
+  

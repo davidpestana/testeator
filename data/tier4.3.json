@@ -1,0 +1,247 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué recurso de AWS permite encontrar documentos técnicos, blogs y guías en los sitios web oficiales de AWS?",
+        "choices": {
+          "0": "AWS Knowledge Center",
+          "1": "AWS re:Post",
+          "2": "Orientación prescriptiva de AWS",
+          "3": "AWS Documentation"
+        },
+        "correctChoices": {
+          "0": 3
+        },
+        "responseExplanation": {
+          "correct": {
+            "3": "Correcto. AWS Documentation es el recurso principal para encontrar guías, tutoriales y documentación técnica oficial de AWS."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Knowledge Center ofrece respuestas a preguntas comunes, pero no es el repositorio principal de documentación.",
+            "1": "Incorrecto. AWS re:Post es una comunidad para responder preguntas técnicas.",
+            "2": "Incorrecto. La orientación prescriptiva proporciona mejores prácticas y guías específicas, pero no es el recurso principal de documentación."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta de AWS proporciona recomendaciones para optimizar costos, mejorar el rendimiento y reforzar la seguridad?",
+        "choices": {
+          "0": "AWS Support Center",
+          "1": "AWS Trusted Advisor",
+          "2": "AWS re:Post",
+          "3": "AWS Marketplace"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Trusted Advisor ofrece recomendaciones para optimizar costos, mejorar el rendimiento y reforzar la seguridad."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Support Center es para gestionar solicitudes de soporte.",
+            "2": "Incorrecto. AWS re:Post es una comunidad técnica.",
+            "3": "Incorrecto. AWS Marketplace es un catálogo de software y servicios."
+          }
+        }
+      },
+      {
+        "question": "¿Qué recurso proporciona alertas y notificaciones sobre el estado de los servicios de AWS y eventos que afectan a tu entorno?",
+        "choices": {
+          "0": "AWS Trusted Advisor",
+          "1": "Panel de AWS Health",
+          "2": "AWS Support Center",
+          "3": "AWS re:Post"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. El Panel de AWS Health ofrece alertas y notificaciones sobre el estado de los servicios y eventos que afectan al entorno del cliente."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Trusted Advisor da recomendaciones, no alertas en tiempo real.",
+            "2": "Incorrecto. AWS Support Center gestiona solicitudes de soporte, pero no proporciona alertas de eventos.",
+            "3": "Incorrecto. AWS re:Post es una comunidad técnica, no una herramienta de notificaciones."
+          }
+        }
+      },
+      {
+        "question": "¿Qué nivel de soporte de AWS incluye acceso a arquitectos de soluciones y revisiones de arquitectura personalizadas?",
+        "choices": {
+          "0": "AWS Basic Support",
+          "1": "AWS Developer Support",
+          "2": "AWS Business Support",
+          "3": "AWS Enterprise Support"
+        },
+        "correctChoices": {
+          "0": 3
+        },
+        "responseExplanation": {
+          "correct": {
+            "3": "Correcto. AWS Enterprise Support incluye acceso a arquitectos de soluciones y revisiones personalizadas de arquitectura."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Basic Support no incluye soporte técnico personalizado.",
+            "1": "Incorrecto. AWS Developer Support es para desarrolladores, pero no incluye arquitectos de soluciones.",
+            "2": "Incorrecto. AWS Business Support ofrece soporte técnico avanzado, pero no revisiones de arquitectura personalizadas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué plan de soporte de AWS está diseñado para startups que requieren soporte técnico básico para desarrollo y pruebas?",
+        "choices": {
+          "0": "AWS Basic Support",
+          "1": "AWS Developer Support",
+          "2": "AWS Business Support",
+          "3": "AWS Enterprise Support"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Developer Support está diseñado para startups y desarrolladores que requieren soporte técnico básico."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Basic Support no incluye soporte técnico directo.",
+            "2": "Incorrecto. AWS Business Support está diseñado para empresas con necesidades operativas avanzadas.",
+            "3": "Incorrecto. AWS Enterprise Support está orientado a grandes organizaciones."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio permite a los clientes adquirir software y servicios de terceros directamente desde AWS?",
+        "choices": {
+          "0": "AWS re:Post",
+          "1": "AWS Marketplace",
+          "2": "AWS Support Center",
+          "3": "AWS Trusted Advisor"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Marketplace es un catálogo digital que permite a los clientes adquirir software y servicios de terceros directamente desde AWS."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS re:Post es una comunidad técnica, no un mercado.",
+            "2": "Incorrecto. AWS Support Center es para gestionar solicitudes de soporte.",
+            "3": "Incorrecto. AWS Trusted Advisor proporciona recomendaciones de optimización, no un catálogo de software."
+          }
+        }
+      },
+      {
+        "question": "¿Qué rol tiene el equipo de AWS Trust and Safety?",
+        "choices": {
+          "0": "Proporcionar recomendaciones de optimización de costos.",
+          "1": "Asistir en la gestión de eventos relacionados con el uso indebido de recursos de AWS.",
+          "2": "Ofrecer soporte técnico personalizado para arquitecturas empresariales.",
+          "3": "Gestionar la facturación consolidada en AWS Organizations."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. El equipo de AWS Trust and Safety asiste en la gestión de eventos relacionados con el uso indebido de recursos de AWS."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las recomendaciones de optimización de costos son responsabilidad de Trusted Advisor.",
+            "2": "Incorrecto. El soporte técnico personalizado es parte de AWS Enterprise Support.",
+            "3": "Incorrecto. La facturación consolidada es gestionada por AWS Organizations."
+          }
+        }
+      },
+      {
+        "question": "¿Qué recurso de AWS proporciona respuestas a preguntas comunes sobre servicios y características?",
+        "choices": {
+          "0": "AWS Knowledge Center",
+          "1": "AWS Support Center",
+          "2": "AWS Marketplace",
+          "3": "AWS Trusted Advisor"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Knowledge Center ofrece respuestas a preguntas comunes sobre servicios y características de AWS."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS Support Center gestiona solicitudes de soporte, no preguntas frecuentes.",
+            "2": "Incorrecto. AWS Marketplace es un catálogo de software y servicios.",
+            "3": "Incorrecto. AWS Trusted Advisor proporciona recomendaciones de optimización."
+          }
+        }
+      },
+      {
+        "question": "¿Qué plataforma de AWS permite hacer preguntas técnicas y obtener respuestas de la comunidad?",
+        "choices": {
+          "0": "AWS re:Post",
+          "1": "AWS Knowledge Center",
+          "2": "AWS Marketplace",
+          "3": "AWS Support Center"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS re:Post es una plataforma de la comunidad para preguntas técnicas y respuestas."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS Knowledge Center ofrece respuestas a preguntas frecuentes, no es una plataforma comunitaria.",
+            "2": "Incorrecto. AWS Marketplace es un catálogo de software.",
+            "3": "Incorrecto. AWS Support Center gestiona solicitudes de soporte."
+          }
+        }
+      },
+      {
+        "question": "¿Qué beneficio principal ofrece AWS Partner Network a los socios?",
+        "choices": {
+          "0": "Acceso a herramientas de administración de recursos en AWS.",
+          "1": "Descuentos por volumen, formación y certificación para socios.",
+          "2": "Acceso prioritario a soporte técnico.",
+          "3": "Servicios personalizados de monitoreo de infraestructura."
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Partner Network ofrece beneficios como descuentos por volumen, formación y certificación para socios."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las herramientas de administración son accesibles a todos los usuarios de AWS.",
+            "2": "Incorrecto. El acceso prioritario a soporte técnico depende del plan de soporte contratado, no exclusivamente de ser socio.",
+            "3": "Incorrecto. El monitoreo de infraestructura está disponible a través de otros servicios, no específicamente como beneficio de AWS Partner Network."
+          }
+        }
+      },
+      {
+        "question": "¿Qué nivel de soporte de AWS incluye acceso a un gerente técnico de cuentas (TAM)?",
+        "choices": {
+          "0": "AWS Basic Support",
+          "1": "AWS Developer Support",
+          "2": "AWS Business Support",
+          "3": "AWS Enterprise Support"
+        },
+        "correctChoices": {
+          "0": 3
+        },
+        "responseExplanation": {
+          "correct": {
+            "3": "Correcto. AWS Enterprise Support incluye acceso a un gerente técnico de cuentas (TAM) para soporte personalizado."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Basic Support no ofrece soporte técnico personalizado.",
+            "1": "Incorrecto. AWS Developer Support no incluye un TAM.",
+            "2": "Incorrecto. AWS Business Support incluye soporte avanzado, pero no un TAM."
+          }
+        }
+      }
+    ]
+  }
+  

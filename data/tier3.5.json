@@ -1,0 +1,225 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué componente de una VPC permite que las instancias dentro de una subred pública se conecten a internet?",
+        "choices": {
+          "0": "NAT Gateway",
+          "1": "Internet Gateway",
+          "2": "VPC Endpoint",
+          "3": "Route Table"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Un Internet Gateway conecta la VPC a internet, permitiendo que las instancias públicas tengan acceso bidireccional."
+          },
+          "incorrect": {
+            "0": "Incorrecto. El NAT Gateway permite el tráfico saliente de subredes privadas, no conecta directamente a internet.",
+            "2": "Incorrecto. Un VPC Endpoint conecta servicios AWS dentro de la red privada sin pasar por internet.",
+            "3": "Incorrecto. Las tablas de rutas definen cómo se enruta el tráfico, pero no proveen conectividad a internet."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta de seguridad de VPC actúa como un firewall a nivel de subred?",
+        "choices": {
+          "0": "Grupos de Seguridad",
+          "1": "Network ACLs",
+          "2": "Firewall de VPC",
+          "3": "Route Table"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las Network ACLs controlan el tráfico entrante y saliente a nivel de subred con reglas explícitas."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Los Grupos de Seguridad actúan a nivel de instancia, no de subred.",
+            "2": "Incorrecto. No existe un 'Firewall de VPC' como servicio específico.",
+            "3": "Incorrecto. Las tablas de rutas no están relacionadas con la seguridad, sino con el enrutamiento."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es el propósito principal de Amazon Route 53?",
+        "choices": {
+          "0": "Configurar redes privadas virtuales",
+          "1": "Gestionar consultas DNS y enrutar tráfico global",
+          "2": "Asegurar conexiones cifradas con AWS VPN",
+          "3": "Optimizar la entrega de contenido con CloudFront"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Route 53 administra nombres de dominio, enruta tráfico según políticas y realiza comprobaciones de salud."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Configurar redes privadas se hace con Amazon VPC, no con Route 53.",
+            "2": "Incorrecto. AWS VPN se usa para conexiones cifradas, pero no está relacionado con Route 53.",
+            "3": "Incorrecto. La optimización de contenido es responsabilidad de CloudFront."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio mejora la latencia global para aplicaciones utilizando puntos de presencia de AWS?",
+        "choices": {
+          "0": "Amazon CloudFront",
+          "1": "AWS Global Accelerator",
+          "2": "Amazon Route 53",
+          "3": "Direct Connect"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Global Accelerator enruta el tráfico al endpoint más cercano basado en la latencia."
+          },
+          "incorrect": {
+            "0": "Incorrecto. CloudFront es una red de distribución de contenido, no un optimizador de tráfico general.",
+            "2": "Incorrecto. Route 53 enruta tráfico DNS, pero no optimiza conexiones directas.",
+            "3": "Incorrecto. Direct Connect es una conexión privada, no un optimizador global de latencia."
+          }
+        }
+      },
+      {
+        "question": "¿Qué componente de una VPC permite el acceso saliente a internet desde subredes privadas?",
+        "choices": {
+          "0": "Internet Gateway",
+          "1": "NAT Gateway",
+          "2": "Egress-Only Internet Gateway",
+          "3": "VPC Endpoint"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. El NAT Gateway permite el tráfico saliente desde subredes privadas mientras mantiene la seguridad."
+          },
+          "incorrect": {
+            "0": "Incorrecto. El Internet Gateway conecta subredes públicas a internet, no privadas.",
+            "2": "Incorrecto. El Egress-Only Gateway es específico para IPv6.",
+            "3": "Incorrecto. Un VPC Endpoint conecta servicios de AWS sin pasar por internet."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de conectividad proporciona una conexión dedicada de baja latencia entre una red local y AWS?",
+        "choices": {
+          "0": "AWS VPN",
+          "1": "Direct Connect",
+          "2": "VPC Peering",
+          "3": "Global Accelerator"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Direct Connect proporciona una conexión física dedicada para alta velocidad y baja latencia."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS VPN utiliza internet, lo que puede aumentar la latencia.",
+            "2": "Incorrecto. VPC Peering conecta VPCs, no redes locales.",
+            "3": "Incorrecto. Global Accelerator optimiza tráfico global, pero no proporciona conexiones dedicadas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta se utiliza para establecer una conexión segura entre usuarios remotos y una VPC?",
+        "choices": {
+          "0": "Site-to-Site VPN",
+          "1": "Client VPN",
+          "2": "Direct Connect",
+          "3": "Global Accelerator"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Client VPN permite a usuarios remotos conectarse de manera segura a recursos dentro de una VPC."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Site-to-Site VPN conecta redes locales a VPCs, no usuarios individuales.",
+            "2": "Incorrecto. Direct Connect proporciona una conexión dedicada, no un túnel seguro para usuarios remotos.",
+            "3": "Incorrecto. Global Accelerator optimiza el tráfico, pero no gestiona VPNs."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS permite distribuir contenido estático y dinámico con baja latencia?",
+        "choices": {
+          "0": "Amazon CloudFront",
+          "1": "AWS Global Accelerator",
+          "2": "Amazon Route 53",
+          "3": "NAT Gateway"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. CloudFront distribuye contenido mediante una red global de puntos de presencia."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Global Accelerator mejora la latencia, pero no es un servicio de distribución de contenido.",
+            "2": "Incorrecto. Route 53 gestiona nombres de dominio, pero no distribuye contenido.",
+            "3": "Incorrecto. El NAT Gateway no tiene relación con la distribución de contenido."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio conecta de forma privada servicios como S3 o DynamoDB a una VPC sin pasar por internet?",
+        "choices": {
+          "0": "Internet Gateway",
+          "1": "NAT Gateway",
+          "2": "VPC Endpoint",
+          "3": "Egress-Only Internet Gateway"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. VPC Endpoint conecta servicios de AWS a la VPC de manera privada y segura."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Internet Gateway conecta recursos públicos a internet.",
+            "1": "Incorrecto. NAT Gateway solo gestiona tráfico saliente de subredes privadas.",
+            "3": "Incorrecto. Egress-Only Internet Gateway está diseñado para tráfico saliente IPv6."
+          }
+        }
+      },
+      {
+        "question": "¿Qué componente de seguridad se aplica a nivel de instancia dentro de una VPC?",
+        "choices": {
+          "0": "Network ACLs",
+          "1": "Security Groups",
+          "2": "Firewall Policies",
+          "3": "Route Tables"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Los Security Groups actúan como firewalls virtuales a nivel de instancia para controlar el tráfico."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Network ACLs operan a nivel de subred.",
+            "2": "Incorrecto. Firewall Policies no son componentes específicos en VPC.",
+            "3": "Incorrecto. Route Tables se utilizan para definir rutas, no para seguridad."
+          }
+        }
+      }
+    ]
+  }
+  

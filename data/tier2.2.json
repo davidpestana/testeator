@@ -1,0 +1,185 @@
+{
+    "questions": [
+      {
+        "question": "¿Cuál es la diferencia principal entre cifrado en tránsito y cifrado en reposo?",
+        "choices": {
+          "1": "El cifrado en tránsito protege los datos cuando están almacenados, mientras que el cifrado en reposo protege los datos mientras se transfieren.",
+          "2": "El cifrado en tránsito protege los datos mientras se transfieren, y el cifrado en reposo protege los datos almacenados.",
+          "3": "No hay diferencia entre ambos tipos de cifrado.",
+          "4": "El cifrado en tránsito es solo para bases de datos, y el cifrado en reposo solo para archivos."
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "El cifrado en tránsito protege los datos mientras se transfieren, y el cifrado en reposo los protege en almacenamiento." },
+          "incorrect": {
+            "1": "Es al revés, el cifrado en tránsito es para datos en movimiento y el cifrado en reposo es para datos almacenados.",
+            "3": "Existen diferencias significativas entre ambos tipos de cifrado.",
+            "4": "El cifrado aplica a múltiples tipos de datos, no solo a bases de datos y archivos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS se utiliza para auditar y registrar las acciones de los usuarios en la cuenta de AWS?",
+        "choices": {
+          "1": "Amazon CloudWatch",
+          "2": "AWS CloudTrail",
+          "3": "AWS Artifact",
+          "4": "Amazon S3"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS CloudTrail registra todas las acciones realizadas en la cuenta de AWS." },
+          "incorrect": {
+            "1": "Amazon CloudWatch se usa para monitorear métricas y no para registrar actividades de usuario.",
+            "3": "AWS Artifact es una herramienta para documentos de cumplimiento, no para registro de actividad.",
+            "4": "Amazon S3 es un servicio de almacenamiento."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes servicios de AWS facilita la auditoría de conformidad en la nube?",
+        "choices": {
+          "1": "AWS Security Hub",
+          "2": "AWS CloudTrail",
+          "3": "AWS Lambda",
+          "4": "AWS Fargate"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS CloudTrail es clave para la auditoría, ya que permite registrar las acciones y cambios en la cuenta." },
+          "incorrect": {
+            "1": "AWS Security Hub ayuda a monitorear la postura de seguridad, pero no es una herramienta de auditoría de conformidad.",
+            "3": "AWS Lambda es un servicio de computación sin servidor.",
+            "4": "AWS Fargate es un servicio para ejecutar contenedores, no es una herramienta de auditoría."
+          }
+        }
+      },
+      {
+        "question": "¿Qué recurso se puede usar para acceder a los informes de auditoría de conformidad de AWS?",
+        "choices": {
+          "1": "AWS Security Hub",
+          "2": "AWS Artifact",
+          "3": "AWS Config",
+          "4": "AWS CloudTrail"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS Artifact proporciona acceso a informes de conformidad como SOC y PCI DSS." },
+          "incorrect": {
+            "1": "AWS Security Hub no proporciona informes de auditoría de conformidad.",
+            "3": "AWS Config se usa para monitorear configuraciones de recursos.",
+            "4": "AWS CloudTrail registra acciones de la cuenta, pero no proporciona informes de conformidad."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es la función principal de AWS Config en seguridad y conformidad?",
+        "choices": {
+          "1": "Monitorear cambios en la configuración de los recursos",
+          "2": "Almacenar datos de aplicaciones",
+          "3": "Detectar amenazas de seguridad",
+          "4": "Ejecutar código sin servidor"
+        },
+        "correctChoices": { "1": 1 },
+        "responseExplanation": {
+          "correct": { "1": "AWS Config monitorea y registra cambios en la configuración de los recursos para asegurar que cumplan con las políticas de conformidad." },
+          "incorrect": {
+            "2": "AWS Config no almacena datos de aplicaciones.",
+            "3": "AWS Config no se usa para detectar amenazas; este es un servicio de monitoreo de configuración.",
+            "4": "AWS Config no ejecuta código; AWS Lambda es el servicio para eso."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes servicios ayuda a detectar amenazas en el entorno de AWS?",
+        "choices": {
+          "1": "AWS Config",
+          "2": "AWS GuardDuty",
+          "3": "Amazon S3",
+          "4": "AWS Artifact"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS GuardDuty es un servicio de detección de amenazas que monitorea continuamente en busca de actividades maliciosas." },
+          "incorrect": {
+            "1": "AWS Config monitorea configuraciones, no amenazas de seguridad.",
+            "3": "Amazon S3 es un servicio de almacenamiento, no de detección de amenazas.",
+            "4": "AWS Artifact proporciona informes de conformidad, no detecta amenazas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS se usa principalmente para la monitorización de métricas y la configuración de alarmas?",
+        "choices": {
+          "1": "AWS CloudTrail",
+          "2": "Amazon CloudWatch",
+          "3": "AWS Security Hub",
+          "4": "AWS Artifact"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "Amazon CloudWatch monitorea métricas y permite configurar alarmas para responder a cambios de rendimiento." },
+          "incorrect": {
+            "1": "AWS CloudTrail se usa para registrar actividades de usuarios.",
+            "3": "AWS Security Hub unifica la vista de la postura de seguridad, no la monitorización de métricas.",
+            "4": "AWS Artifact proporciona informes de conformidad."
+          }
+        }
+      },
+      {
+        "question": "¿Qué tipo de cifrado asegura que los datos están protegidos mientras son transferidos entre servicios?",
+        "choices": {
+          "1": "Cifrado en tránsito",
+          "2": "Cifrado en reposo",
+          "3": "Cifrado de datos inactivos",
+          "4": "Cifrado de autenticación"
+        },
+        "correctChoices": { "1": 1 },
+        "responseExplanation": {
+          "correct": { "1": "El cifrado en tránsito protege los datos durante la transferencia entre servicios." },
+          "incorrect": {
+            "2": "El cifrado en reposo protege datos almacenados.",
+            "3": "El término correcto es cifrado en tránsito para datos en movimiento.",
+            "4": "El cifrado de autenticación no existe como término en AWS."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes servicios permite a las organizaciones auditar la conformidad de sus configuraciones de AWS con las normativas de seguridad?",
+        "choices": {
+          "1": "AWS GuardDuty",
+          "2": "AWS Config",
+          "3": "Amazon RDS",
+          "4": "Amazon EC2"
+        },
+        "correctChoices": { "2": 1 },
+        "responseExplanation": {
+          "correct": { "2": "AWS Config permite auditar las configuraciones de recursos y verificar que cumplen con las políticas de seguridad." },
+          "incorrect": {
+            "1": "AWS GuardDuty se usa para detectar amenazas, no para auditar conformidad.",
+            "3": "Amazon RDS es un servicio de bases de datos.",
+            "4": "Amazon EC2 es un servicio de cómputo."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál es la función principal de AWS CloudTrail en seguridad y auditoría?",
+        "choices": {
+          "1": "Ejecutar aplicaciones sin servidor",
+          "2": "Monitorear el rendimiento de aplicaciones",
+          "3": "Registrar las actividades realizadas en la cuenta de AWS",
+          "4": "Implementar máquinas virtuales"
+        },
+        "correctChoices": { "3": 1 },
+        "responseExplanation": {
+          "correct": { "3": "AWS CloudTrail registra las actividades realizadas en la cuenta, permitiendo una auditoría detallada de las acciones en AWS." },
+          "incorrect": {
+            "1": "AWS Lambda se usa para ejecutar aplicaciones sin servidor.",
+            "2": "Amazon CloudWatch se usa para monitorear el rendimiento.",
+            "4": "Amazon EC2 se usa para implementar máquinas virtuales, no CloudTrail."
+          }
+        }
+      }
+    ]
+  }
+  

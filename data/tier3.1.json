@@ -1,0 +1,181 @@
+{
+    "questions": [
+      {
+        "question": "¿Cuál es la principal ventaja de utilizar la infraestructura como código (IaC) en AWS?",
+        "choices": {
+          "0": "Permite configuraciones dinámicas en tiempo de ejecución",
+          "1": "Facilita configuraciones repetibles y gestionadas como código",
+          "2": "Reduce el tiempo de ejecución de las aplicaciones",
+          "3": "Garantiza alta disponibilidad automáticamente"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. IaC permite definir configuraciones reutilizables y gestionarlas como código para facilitar el despliegue."
+          },
+          "incorrect": {
+            "0": "Incorrecto. IaC no está orientado a configuraciones dinámicas en tiempo real, sino a la automatización.",
+            "2": "Incorrecto. Aunque puede optimizar procesos, no afecta directamente el tiempo de ejecución de las aplicaciones.",
+            "3": "Incorrecto. IaC no garantiza alta disponibilidad, aunque puede ayudar a configurarla correctamente."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta permite la automatización de despliegues mediante modelos predefinidos en AWS?",
+        "choices": {
+          "0": "AWS CLI",
+          "1": "AWS SDK",
+          "2": "AWS CloudFormation",
+          "3": "AWS Management Console"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. AWS CloudFormation permite crear, actualizar y eliminar recursos mediante modelos predefinidos en formato JSON o YAML."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS CLI permite interactuar con servicios, pero no utiliza modelos predefinidos.",
+            "1": "Incorrecto. AWS SDK proporciona herramientas para programadores, pero no automatiza despliegues mediante modelos.",
+            "3": "Incorrecto. La consola de administración no soporta directamente modelos predefinidos para automatización."
+          }
+        }
+      },
+      {
+        "question": "¿Qué modelo de despliegue es más adecuado para sistemas que requieren datos altamente sensibles en servidores locales, pero quieren aprovechar servicios en la nube?",
+        "choices": {
+          "0": "Despliegue híbrido",
+          "1": "Despliegue en la nube pública",
+          "2": "Despliegue en la nube privada",
+          "3": "Despliegue local"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. El despliegue híbrido combina recursos locales y en la nube, siendo ideal para manejar datos sensibles mientras se aprovechan los servicios en la nube."
+          },
+          "incorrect": {
+            "1": "Incorrecto. La nube pública no involucra servidores locales.",
+            "2": "Incorrecto. La nube privada no utiliza servidores locales en combinación con servicios de nube pública.",
+            "3": "Incorrecto. Un despliegue exclusivamente local no aprovecha los beneficios de la nube."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones de conectividad permite una conexión privada y dedicada entre las instalaciones y AWS?",
+        "choices": {
+          "0": "AWS Direct Connect",
+          "1": "AWS VPN",
+          "2": "Conexión a través de internet pública",
+          "3": "AWS Route 53"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Direct Connect ofrece una conexión privada y dedicada, ideal para transferencias de datos grandes con baja latencia."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS VPN utiliza internet pública para crear una conexión segura, pero no es una conexión dedicada.",
+            "2": "Incorrecto. Internet pública no proporciona conexiones privadas.",
+            "3": "Incorrecto. AWS Route 53 es un servicio de DNS, no una solución de conectividad."
+          }
+        }
+      },
+      {
+        "question": "¿Qué método es más adecuado para operaciones únicas en AWS?",
+        "choices": {
+          "0": "AWS Management Console",
+          "1": "AWS CLI",
+          "2": "Infraestructura como código (IaC)",
+          "3": "AWS SDK"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. La consola de administración de AWS es ideal para operaciones únicas debido a su facilidad de uso."
+          },
+          "incorrect": {
+            "1": "Incorrecto. La CLI está más orientada a tareas automatizadas y repetitivas.",
+            "2": "Incorrecto. IaC es más eficiente para operaciones repetibles y configuraciones automatizadas.",
+            "3": "Incorrecto. Los SDK están diseñados para desarrolladores, no para operaciones únicas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué ventaja proporciona AWS CLI frente a la consola de administración de AWS?",
+        "choices": {
+          "0": "Interfaz gráfica más intuitiva",
+          "1": "Permite automatizar tareas repetitivas",
+          "2": "Soporte para modelos de despliegue híbridos",
+          "3": "Mayor seguridad en la conexión"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS CLI permite automatizar tareas mediante scripts, lo que es ideal para operaciones repetitivas."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS CLI es una herramienta basada en línea de comandos, no tiene interfaz gráfica.",
+            "2": "Incorrecto. AWS CLI no está específicamente diseñado para modelos de despliegue híbridos.",
+            "3": "Incorrecto. La seguridad de la conexión depende de las credenciales utilizadas, no del método de acceso."
+          }
+        }
+      },
+      {
+        "question": "¿Qué solución de conectividad de AWS ofrece la mayor facilidad para configuraciones rápidas?",
+        "choices": {
+          "0": "AWS Direct Connect",
+          "1": "AWS VPN",
+          "2": "Internet pública",
+          "3": "AWS Transit Gateway"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS VPN utiliza internet pública y puede configurarse rápidamente para crear una conexión segura."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Direct Connect requiere más tiempo para configurar debido a su naturaleza dedicada.",
+            "2": "Incorrecto. Aunque es fácil de usar, no proporciona la seguridad requerida.",
+            "3": "Incorrecto. AWS Transit Gateway es más complejo y no está diseñado específicamente para configuraciones rápidas."
+          }
+        }
+      },
+      {
+        "question": "¿Cuál de los siguientes métodos NO es un método de aprovisionamiento en AWS?",
+        "choices": {
+          "0": "AWS Elastic Beanstalk",
+          "1": "AWS Lambda",
+          "2": "AWS Storage Gateway",
+          "3": "AWS Management Console"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. AWS Storage Gateway no es un método de aprovisionamiento, sino un servicio para conectar almacenamiento local con AWS."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Elastic Beanstalk permite aprovisionar aplicaciones automáticamente.",
+            "1": "Incorrecto. AWS Lambda aprovisiona entornos de ejecución para funciones sin servidor.",
+            "3": "Incorrecto. La consola de administración puede usarse para aprovisionar recursos manualmente."
+          }
+        }
+      }
+    ]
+  }
+  

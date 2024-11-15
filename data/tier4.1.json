@@ -1,0 +1,269 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué modelo de precios de AWS es más adecuado para cargas de trabajo impredecibles que no requieren compromisos a largo plazo?",
+        "choices": {
+          "0": "Instancias bajo demanda",
+          "1": "Instancias reservadas",
+          "2": "Spot Instances",
+          "3": "Savings Plans"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. Las instancias bajo demanda son ideales para cargas de trabajo impredecibles y no requieren compromiso a largo plazo."
+          },
+          "incorrect": {
+            "1": "Incorrecto. Las instancias reservadas requieren un compromiso a largo plazo.",
+            "2": "Incorrecto. Las Spot Instances son más económicas pero pueden interrumpirse.",
+            "3": "Incorrecto. Los Savings Plans requieren un compromiso de gasto por un período específico."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de compra es ideal para cargas de trabajo críticas que necesitan capacidad garantizada a largo plazo?",
+        "choices": {
+          "0": "Instancias bajo demanda",
+          "1": "Instancias reservadas",
+          "2": "Spot Instances",
+          "3": "Instancias dedicadas"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las instancias reservadas garantizan capacidad a largo plazo y ofrecen descuentos significativos en comparación con las instancias bajo demanda."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las instancias bajo demanda no garantizan capacidad y son más costosas.",
+            "2": "Incorrecto. Las Spot Instances pueden interrumpirse y no son ideales para cargas críticas.",
+            "3": "Incorrecto. Las instancias dedicadas son más costosas y están diseñadas para requisitos específicos de hardware aislado."
+          }
+        }
+      },
+      {
+        "question": "¿Qué modelo de precios ofrece la mayor flexibilidad para comprometerse con el uso de recursos a cambio de descuentos significativos?",
+        "choices": {
+          "0": "Instancias bajo demanda",
+          "1": "Spot Instances",
+          "2": "Savings Plans",
+          "3": "Hosts dedicados"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Los Savings Plans ofrecen flexibilidad para comprometerse con un gasto fijo y obtener descuentos significativos en instancias EC2 y Fargate."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las instancias bajo demanda no ofrecen descuentos por compromisos.",
+            "1": "Incorrecto. Las Spot Instances son económicas pero no garantizan disponibilidad continua.",
+            "3": "Incorrecto. Los hosts dedicados son más específicos y costosos, diseñados para cargas con requisitos estrictos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de instancia de AWS permite acceso exclusivo a un servidor físico para cumplir con requisitos de licencias o normativas?",
+        "choices": {
+          "0": "Instancias reservadas",
+          "1": "Spot Instances",
+          "2": "Instancias dedicadas",
+          "3": "Savings Plans"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Las instancias dedicadas proporcionan acceso exclusivo a un servidor físico."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las instancias reservadas ofrecen descuentos, pero no acceso exclusivo a hardware físico.",
+            "1": "Incorrecto. Las Spot Instances son económicas pero comparten hardware.",
+            "3": "Incorrecto. Los Savings Plans no están relacionados con requisitos físicos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de compra es adecuada para tareas temporales que pueden interrumpirse sin afectar las operaciones críticas?",
+        "choices": {
+          "0": "Instancias bajo demanda",
+          "1": "Spot Instances",
+          "2": "Savings Plans",
+          "3": "Instancias reservadas"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las Spot Instances son ideales para tareas temporales o no críticas, ya que ofrecen costos reducidos pero pueden interrumpirse."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las instancias bajo demanda son más costosas y no están diseñadas para interrupciones.",
+            "2": "Incorrecto. Los Savings Plans no están diseñados para cargas interrumpibles.",
+            "3": "Incorrecto. Las instancias reservadas son para compromisos a largo plazo, no tareas temporales."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de almacenamiento es más adecuada para datos de acceso frecuente que requieren baja latencia?",
+        "choices": {
+          "0": "S3 Standard",
+          "1": "Amazon Glacier",
+          "2": "Amazon EBS",
+          "3": "S3 Standard-IA"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon EBS es ideal para datos de acceso frecuente que requieren baja latencia, como bases de datos y sistemas operativos."
+          },
+          "incorrect": {
+            "0": "Incorrecto. S3 Standard es almacenamiento de objetos, no almacenamiento en bloques de baja latencia.",
+            "1": "Incorrecto. Amazon Glacier es para archivado de datos.",
+            "3": "Incorrecto. S3 Standard-IA es para datos de acceso poco frecuente."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio aplica cargos por transferencia de datos entre zonas de disponibilidad (AZ) dentro de la misma región?",
+        "choices": {
+          "0": "Amazon S3",
+          "1": "Amazon EC2",
+          "2": "Amazon RDS",
+          "3": "Todos los anteriores"
+        },
+        "correctChoices": {
+          "0": 3
+        },
+        "responseExplanation": {
+          "correct": {
+            "3": "Correcto. Todos los servicios (S3, EC2, RDS) aplican cargos por transferencia de datos entre zonas de disponibilidad dentro de la misma región."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Amazon S3 aplica cargos por transferencia entre AZs, pero no es el único servicio que lo hace.",
+            "1": "Incorrecto. Amazon EC2 también aplica estos cargos, pero no es el único.",
+            "2": "Incorrecto. Amazon RDS aplica cargos similares, pero no es exclusivo."
+          }
+        }
+      },
+      {
+        "question": "¿Qué modelo de precios permite compartir los descuentos de las instancias reservadas entre cuentas de AWS Organizations?",
+        "choices": {
+          "0": "Savings Plans",
+          "1": "Instancias reservadas",
+          "2": "Spot Instances",
+          "3": "Hosts dedicados"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las instancias reservadas permiten compartir descuentos entre cuentas dentro de AWS Organizations."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Los Savings Plans ofrecen flexibilidad, pero los descuentos no se comparten de la misma manera.",
+            "2": "Incorrecto. Las Spot Instances no ofrecen esta funcionalidad.",
+            "3": "Incorrecto. Los hosts dedicados no comparten descuentos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué nivel de almacenamiento en S3 es más adecuado para archivado de largo plazo con costos reducidos?",
+        "choices": {
+          "0": "S3 Standard",
+          "1": "S3 Intelligent-Tiering",
+          "2": "S3 Glacier Deep Archive",
+          "3": "S3 Standard-IA"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. S3 Glacier Deep Archive es el nivel más económico para archivado de largo plazo."
+          },
+          "incorrect": {
+            "0": "Incorrecto. S3 Standard está diseñado para datos de acceso frecuente.",
+            "1": "Incorrecto. Intelligent-Tiering ajusta el nivel de almacenamiento automáticamente, pero no es el más económico para archivado.",
+            "3": "Incorrecto. S3 Standard-IA es para datos de acceso poco frecuente, no archivado."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de almacenamiento proporciona acceso compartido a múltiples instancias EC2?",
+        "choices": {
+          "0": "Amazon EBS",
+          "1": "Amazon EFS",
+          "2": "Amazon S3",
+          "3": "Amazon Glacier"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Amazon EFS (Elastic File System) permite acceso compartido desde múltiples instancias EC2."
+          },
+          "incorrect": {
+            "0": "Incorrecto. EBS es almacenamiento en bloques y no permite acceso compartido directo.",
+            "2": "Incorrecto. S3 es almacenamiento de objetos, no un sistema de archivos compartido.",
+            "3": "Incorrecto. Glacier es para archivado de datos, no para acceso compartido."
+          }
+        }
+      },
+      {
+        "question": "¿Qué opción de almacenamiento en bloques ofrece el menor costo por GB, pero es ideal solo para datos accedidos de manera secuencial?",
+        "choices": {
+          "0": "Amazon EBS gp3",
+          "1": "Amazon EBS io2",
+          "2": "Amazon EBS st1",
+          "3": "Amazon EBS sc1"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Amazon EBS st1 es la opción de menor costo para datos accedidos secuencialmente, como cargas de trabajo de big data."
+          },
+          "incorrect": {
+            "0": "Incorrecto. gp3 está optimizado para IOPS y latencia baja, no para secuencial.",
+            "1": "Incorrecto. io2 ofrece alto rendimiento y durabilidad, pero es más costoso.",
+            "3": "Incorrecto. sc1 es aún más económico, pero para datos accedidos con menor frecuencia."
+          }
+        }
+      },
+      {
+        "question": "¿Qué modelo de precios de almacenamiento se ajusta automáticamente entre niveles según patrones de acceso?",
+        "choices": {
+          "0": "S3 Standard",
+          "1": "S3 Glacier",
+          "2": "S3 Intelligent-Tiering",
+          "3": "S3 Standard-IA"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. S3 Intelligent-Tiering ajusta automáticamente los niveles de almacenamiento según los patrones de acceso, optimizando costos."
+          },
+          "incorrect": {
+            "0": "Incorrecto. S3 Standard es para datos de acceso frecuente, pero no ajusta niveles automáticamente.",
+            "1": "Incorrecto. S3 Glacier es para archivado de largo plazo y no ajusta niveles.",
+            "3": "Incorrecto. S3 Standard-IA es para datos de acceso poco frecuente, pero no se ajusta dinámicamente."
+          }
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,247 @@
+{
+    "questions": [
+      {
+        "question": "¿Qué herramienta de AWS permite establecer límites de presupuesto y recibir alertas cuando los costos se aproximan o superan el límite establecido?",
+        "choices": {
+          "0": "AWS Cost Explorer",
+          "1": "AWS Budgets",
+          "2": "AWS Pricing Calculator",
+          "3": "AWS Billing Conductor"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Budgets permite establecer límites de presupuesto y enviar alertas cuando los costos alcanzan un umbral definido."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Cost Explorer se utiliza para analizar tendencias de costos, pero no para establecer presupuestos.",
+            "2": "Incorrecto. AWS Pricing Calculator es para estimar costos, no para administrar presupuestos.",
+            "3": "Incorrecto. AWS Billing Conductor es para personalizar la facturación, no para alertas presupuestarias."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta de AWS proporciona gráficos y análisis interactivos para comprender las tendencias de costos y uso?",
+        "choices": {
+          "0": "AWS Budgets",
+          "1": "AWS Cost Explorer",
+          "2": "AWS Billing Conductor",
+          "3": "AWS Pricing Calculator"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. AWS Cost Explorer permite analizar las tendencias de costos y uso mediante gráficos interactivos."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Budgets se centra en alertas presupuestarias, no en análisis interactivo.",
+            "2": "Incorrecto. AWS Billing Conductor es para personalizar la facturación.",
+            "3": "Incorrecto. AWS Pricing Calculator se utiliza para estimar costos futuros."
+          }
+        }
+      },
+      {
+        "question": "¿Qué servicio de AWS permite calcular costos estimados de servicios antes de utilizarlos?",
+        "choices": {
+          "0": "AWS Cost Explorer",
+          "1": "AWS Budgets",
+          "2": "AWS Pricing Calculator",
+          "3": "AWS Billing Conductor"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. AWS Pricing Calculator permite estimar costos futuros de servicios en función de configuraciones específicas."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Cost Explorer analiza costos existentes, no estimados.",
+            "1": "Incorrecto. AWS Budgets es para gestionar presupuestos, no para estimar costos.",
+            "3": "Incorrecto. AWS Billing Conductor es para personalizar y dividir la facturación."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta permite personalizar la facturación y crear agrupaciones específicas para diferentes unidades de negocio?",
+        "choices": {
+          "0": "AWS Organizations",
+          "1": "AWS Budgets",
+          "2": "AWS Billing Conductor",
+          "3": "AWS Cost Explorer"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. AWS Billing Conductor permite personalizar la facturación y agrupar costos según necesidades organizacionales."
+          },
+          "incorrect": {
+            "0": "Incorrecto. AWS Organizations gestiona cuentas, pero no personaliza facturación específica.",
+            "1": "Incorrecto. AWS Budgets es para alertas presupuestarias.",
+            "3": "Incorrecto. AWS Cost Explorer es para analizar costos y uso."
+          }
+        }
+      },
+      {
+        "question": "¿Qué característica de AWS Organizations permite compartir descuentos y consolidar la facturación entre cuentas?",
+        "choices": {
+          "0": "Etiquetas de asignación de costes",
+          "1": "Facturación unificada",
+          "2": "AWS Cost Explorer",
+          "3": "AWS Budgets"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. La facturación unificada en AWS Organizations permite compartir descuentos y consolidar costos entre cuentas."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las etiquetas de asignación de costes son para categorizar recursos, no para consolidar costos.",
+            "2": "Incorrecto. AWS Cost Explorer analiza tendencias de costos, no consolida facturación.",
+            "3": "Incorrecto. AWS Budgets es para alertas presupuestarias."
+          }
+        }
+      },
+      {
+        "question": "¿Qué informe proporciona datos detallados sobre el uso y los costos de AWS a nivel de recurso?",
+        "choices": {
+          "0": "Informe de Costos y Usos de AWS (CUR)",
+          "1": "AWS Billing Conductor",
+          "2": "AWS Cost Explorer",
+          "3": "AWS Budgets"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. El Informe de Costos y Usos de AWS (CUR) proporciona detalles extensivos sobre costos y uso por recurso."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS Billing Conductor personaliza facturación, no genera informes detallados.",
+            "2": "Incorrecto. AWS Cost Explorer analiza tendencias de costos, no detalles específicos.",
+            "3": "Incorrecto. AWS Budgets es para alertas presupuestarias."
+          }
+        }
+      },
+      {
+        "question": "¿Qué tipo de etiqueta en AWS se utiliza para categorizar recursos y asociarlos a diferentes unidades de negocio?",
+        "choices": {
+          "0": "Etiquetas generadas por el usuario",
+          "1": "Etiquetas administradas por AWS",
+          "2": "Etiquetas de asignación de costos",
+          "3": "Etiquetas de seguridad"
+        },
+        "correctChoices": {
+          "0": 2
+        },
+        "responseExplanation": {
+          "correct": {
+            "2": "Correcto. Las etiquetas de asignación de costos permiten categorizar recursos y asociar costos a unidades de negocio específicas."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las etiquetas generadas por el usuario no están integradas para asignación de costos.",
+            "1": "Incorrecto. Las etiquetas administradas por AWS se generan automáticamente, pero no son para asignación de costos.",
+            "3": "Incorrecto. Las etiquetas de seguridad no están relacionadas con costos."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta permite realizar un desglose detallado de los costos basados en etiquetas y recursos asociados?",
+        "choices": {
+          "0": "AWS Cost Explorer",
+          "1": "AWS Pricing Calculator",
+          "2": "AWS Budgets",
+          "3": "AWS Billing Conductor"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Cost Explorer permite analizar costos y uso detallados utilizando etiquetas y otros filtros."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS Pricing Calculator no ofrece desglose de costos detallado.",
+            "2": "Incorrecto. AWS Budgets no realiza análisis detallados, solo alerta sobre presupuestos.",
+            "3": "Incorrecto. AWS Billing Conductor personaliza la facturación, pero no desglosa costos por etiquetas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta de AWS permite estimar el costo total de uso para una arquitectura completa de servicios?",
+        "choices": {
+          "0": "AWS Pricing Calculator",
+          "1": "AWS Cost Explorer",
+          "2": "AWS Budgets",
+          "3": "AWS Billing Conductor"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Pricing Calculator permite estimar el costo total de uso de una arquitectura de servicios personalizada."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS Cost Explorer analiza costos históricos, no estima arquitecturas completas.",
+            "2": "Incorrecto. AWS Budgets es para gestionar presupuestos y alertas.",
+            "3": "Incorrecto. AWS Billing Conductor no calcula costos estimados para arquitecturas."
+          }
+        }
+      },
+      {
+        "question": "¿Qué herramienta se usa para analizar cómo se distribuyen los costos dentro de AWS Organizations?",
+        "choices": {
+          "0": "AWS Cost Explorer",
+          "1": "AWS Budgets",
+          "2": "AWS Billing Conductor",
+          "3": "AWS Pricing Calculator"
+        },
+        "correctChoices": {
+          "0": 0
+        },
+        "responseExplanation": {
+          "correct": {
+            "0": "Correcto. AWS Cost Explorer permite analizar cómo se distribuyen los costos entre cuentas de AWS Organizations."
+          },
+          "incorrect": {
+            "1": "Incorrecto. AWS Budgets no ofrece análisis de distribución de costos.",
+            "2": "Incorrecto. AWS Billing Conductor personaliza facturación, pero no analiza distribuciones.",
+            "3": "Incorrecto. AWS Pricing Calculator es para estimar costos, no para analizar distribuciones existentes."
+          }
+        }
+      },
+      {
+        "question": "¿Qué tipo de etiqueta se utiliza para categorizar recursos automáticamente en AWS, sin intervención del usuario?",
+        "choices": {
+          "0": "Etiquetas generadas por el usuario",
+          "1": "Etiquetas administradas por AWS",
+          "2": "Etiquetas de asignación de costos",
+          "3": "Etiquetas dinámicas"
+        },
+        "correctChoices": {
+          "0": 1
+        },
+        "responseExplanation": {
+          "correct": {
+            "1": "Correcto. Las etiquetas administradas por AWS se generan automáticamente para recursos seleccionados."
+          },
+          "incorrect": {
+            "0": "Incorrecto. Las etiquetas generadas por el usuario requieren intervención manual.",
+            "2": "Incorrecto. Las etiquetas de asignación de costos deben ser definidas por el usuario.",
+            "3": "Incorrecto. No existe un concepto de 'etiquetas dinámicas' en AWS."
+          }
+        }
+      }
+    ]
+  }
+  
